@@ -1,0 +1,65 @@
+@font-face {
+  font-family: "comfortaa";
+  font-style: normal;
+  font-weight: 300 700;
+  src: local("Comfortaa"),
+    url("/assets/font/Comfortaa/Comfortaa-VariableFont_wght.woff2")
+      format("woff2"),
+    url("/assets/font/Comfortaa/Comfortaa-VariableFont_wght.woff")
+      format("wooff"),
+    url("/assets/font/Comfortaa/Comfortaa-VariableFont_wght.ttf")
+      format("truetype");
+  unicode-range: U+000-5FF; /* Latin glyphs */
+}
+@font-face {
+  font-family: "Rajdhani-Medium";
+  font-style: normal;
+  src: local("Rajdhani-Medium"), url("/assets/font/Rajdhani-Medium.ttf");
+}
+
+:root {
+  --redtheme: #e87967;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header { 
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #034a4a;
+  font-family: comfortaa, cursive;
+  padding-right: 3rem;
+}
+
+.navbar-brand {
+  font-family: comfortaa, cursive;
+  font-weight: 500;
+  font-size: 1.5625rem;
+  color: var(--redtheme) !important;
+}
+
+.nav-link {
+  color: #e87967 !important;
+}
+
+/*
+.navbar:hover {
+  color:  #e87967;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+}
+
+.navbar-nav {
+  /* font-family: comfortaa, cursive; */
+  /* font-size: 1rem; */
+  /* font-weight: 700; */
