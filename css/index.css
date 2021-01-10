@@ -1,0 +1,145 @@
+@import url("/css/fonts.css");
+
+/* CSS variables  */
+:root {
+  --dm-red: #e87967;
+  --dm-blue: #034a4a;
+}
+
+body {
+  animation-duration: 2s;
+}
+
+/* Navigation start */
+.branding {
+  color: var(--dm-red) !important;
+  font-family: "Comfortaa";
+  font-size: 30px;
+}
+.branding:hover {
+  color: var(--dm-blue);
+}
+.navigation-item {
+  color: var(--dm-blue);
+  font-family: "Ubuntu";
+  font-size: 20px;
+}
+.navigation-item:hover {
+  color: var(--dm-red);
+  transition: 0.5s;
+  border-bottom: 1px solid var(--dm-blue);
+}
+.nav-link.active {
+  color: var(--dm-red);
+}
+/* Navigation end */
+
+.title-text {
+  font-family: Comfortaa;
+  font-size: 20px;
+  font-weight: 400;
+}
+.site-title {
+  font-family: Ubuntu;
+  font-weight: 700;
+  color: blue;
+  font-size: 40px;
+}
+.site-slogan {
+  font-family: Comfortaa;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+}
+.tag-line {
+  align-self: flex-end;
+  font-family: Ubuntu;
+  color: green;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-container {
+  background: url("/img/undraw_coding_6mjf\ -mobile-size.png");
+  background-position: right;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+.flexed {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 250px;
+}
+.sub-title {
+  font-family: Comfortaa;
+  font-size: 30;
+  color: var(--dm-blue);
+  font-weight: 400;
+}
+.container p {
+  font-family: Roboto, sans-serif;
+  font-size: 20px;
+}
+.skillset {
+  font-family: Roboto;
+  font-size: 20px;
+}
+
+/* Contact Me start  */
+.social-media-container {
+  color: var(--dm-red);
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.social-media {
+  color: var(--dm-blue);
+  font-family: Roboto;
+  font-size: 20px;
+  /* display: flex; */
+}
+.social-media a {
+  text-decoration: none;
+  color: var(--dm-blue);
+}
+.fa {
+  color: blue;
+}
+/* Contact Me End  */
+footer p {
+  font-family: Roboto, sans-serif;
+  font-size: 15px;
+  color: var(--dm-blue);
+}
+/* Footer End  */
+
+/* Media Queries */
+@media (min-width: 720px) {
+  .site-title {
+    font-size: 60px;
+  }
+  .title-text {
+    font-size: 28px;
+  }
+  .main-container {
+    background: url("/img/undraw_coding_6mjf.png");
+    background-position: right;
+    height: 420px;
+    background-repeat: no-repeat;
+  }
+  .tag-line {
+    text-align: left;
+  }
+  .flexed {
+    height: 380px;
+  }
+}
+
+/* 
+  image height: 484px
+  image width: 583px
+   */

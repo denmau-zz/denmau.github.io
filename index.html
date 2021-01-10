@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dennis Kamau | Web & Mobile Developer</title>
+    <title>Dennis Kamau | Software Engineer</title>
     <link rel="canonical" href=" { { https://www.denmau.me } }{ { index.html } }" />
     <!-- bootsrap -->
     <link
@@ -12,31 +12,24 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
-
-    <!-- main style file -->
-    <link rel="stylesheet" href="assets/css/style.css" />
-    <!-- Font Awesome -->
-    <link
-      rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.1/css/all.css"
-      integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp"
-      crossorigin="anonymous"
-    />
+    <!-- animate -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- Font Awesome  -->
+    <script src="https://use.fontawesome.com/fa8887939e.js"></script>
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="/css/index.css" />
     <script type="text/javascript">
-    var host = "denmau.me";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-        window.location.protocol = "https";
-</script>
+      var host = "denmau.me";
+      if (host == window.location.host && window.location.protocol != "https:") window.location.protocol = "https";
+    </script>
   </head>
   <body>
     <header>
       <!-- Navigation bar -->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-light justify-content-between"
-      >
-        <a class="navbar-brand" href="index.html">
-          <i class="fab fa-accusoft"></i>
-          denmau
+      <nav class="navbar navbar-expand-md justify-content-between animate__animated animate__fadeInUpBig">
+        <a href="https://www.denmau.me" class="navbar-brand">
+          <img src="/img/brand_abstract.png" alt="denmau logo" height="60" />
+          <span class="branding">denmau</span>
         </a>
 
         <button
@@ -48,60 +41,94 @@
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span><img src="/img/iconmonstr-menu-1.png" alt="menu icon" height="20" /></span>
         </button>
 
         <div class="collapse navbar-collapse text-right" id="navbarText">
-          <ul class="navbar-nav ml-auto flex-nowrap">
-            <li class="nav-item active">
-              <a class="nav-link" href="index.html">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Portfolio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contact</a>
-            </li>
-          </ul>
+          <div class="navbar-nav ml-auto flex-nowrap">
+            <a class="nav-item nav-link active" href="https://www.denmau.me"><span class="navigation-item">Home</span></a>
+            <a class="nav-item nav-link" href="#aboutMe"><span class="navigation-item">About</span></a>
+            <a class="nav-item nav-link" href="#contactMe"><span class="navigation-item">Contact</span></a>
+          </div>
         </div>
+        <!-- Navigation Bar End -->
       </nav>
     </header>
-    <div class="container">
-      <div class="row">
-        <h1>
-          <i class="fas fa-hammer"></i>Coming
-          <span class="text-muted">very</span> Soon!
-        </h1>
-      </div>
-      Hi there👋, thanks for stopping by, my name is Dennis Kamau. I am working
-      hard to finish the development of this site.
-    </div>
-    <br />
-    <div class="container">
-      <h3>Design Stage</h3>
-      <div class="">
-        <h3>Web Version</h3>
-        <img class="border border-info"
-          src="/assets/img/Web 1920 – 1.png"
-          alt="design for web"
-          width="768px"
-        />
-      </div>
-      <br />
-      <div class="row justify-content-center">
-        <div class="col-sm-12">
-          <h3>Mobile Version</h3>
-          <img
-            class="border border-info"
-            src="/assets/img/Google Pixel 4, 4XL – 1.png"
-            alt="design for mobile"
-          />
+    <div class="container main-container">
+      <div class="flexed">
+        <div class="container">
+          <h3 class="title-text">Hey ----------------------------------</h3>
+          <br />
+          <h2 class="site-title animate__animated animate__bounceInDown">I'M DENNIS KAMAU</h2>
+          <br />
+          <h4 class="site-slogan animate__animated animate__backInRight">CS UNDERGRAD | SOFTWARE ENGINEER</h4>
         </div>
       </div>
+      <div class="tag-line">
+        <p class="animate__animated animate__bounceInDown">I am a Freelance Full Stack Developer and an undergraduate based in Kenya.</p>
+      </div>
     </div>
+    <br />
+    <section id="aboutMe">
+      <div class="container">
+        <h2 class="sub-title">About Me</h2>
+        <p>I am an undergraduate at South Eastern Kenya University, studying Computer Science.</p>
+        <p>I love creating solutions both for mobile and for the web.</p>
+        <div class="row">
+          <div class="col-md-6">
+            <h4 class="mt-2">🌱 I’m currently learning ..</h4>
+            <ul class="skillset">
+              <li>Machine Learning</li>
+              <li>Data Structures & Algorithms</li>
+            </ul>
+          </div>
+          <div class="col-md-6">
+            <h4 class="mt-2">🔭Skills</h4>
+            <ul class="skillset">
+              <li>Python Programming</li>
+              <li>Web Programming with Java (Spring Boot)</li>
+              <li>Mobile programming with Java</li>
+              <li>Front-End Development: Bootstrap, JS</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <br />
+    </section>
+    <section id="contactMe">
+      <div class="container">
+        <h2 class="sub-title">Contact Me</h2>
+        <div class="row">
+          <div class="container social-media-container">
+            <div class="social-media">
+              <i class="fa fa-linkedin"></i>
+              <a href="https:www.linkedin.com/in/denmau" target="_blank" rel="noopener">Linked In</a>
+            </div>
+
+            <div class="social-media">
+              <i class="fa fa-twitter"></i>
+              <a href="https:www.twitter.com/denmau6" target="_blank" rel="noopener">Twitter</a>
+            </div>
+
+            <div class="social-media">
+              <i class="fa fa-github"></i>
+              <a href="https://github.com/denmau" target="_blank" rel="noopener">GitHub</a>
+            </div>
+
+            <div class="social-media">
+              <i class="fa fa-envelope"></i>
+              <a href="mailto:dmkamau475@gmail.com" target="_blank" rel="noopener">Email Me</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr />
+    <footer class="text-center">
+      <p>
+        All rights reserved | Copyright ©2021 | Made with ❤ by <a href="https://www.github.com/denmau" target="_blank" rel="noopener">Dennis Kamau</a>
+      </p>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -119,8 +146,8 @@
       crossorigin="anonymous"
     ></script>
 
-<!-- Cloudflare Web Analytics -->
-<script defer src='https://static.cloudflareinsights.com/beacon.min.js' data-cf-beacon='{"token": "7c6a28636ca84f3b9c71d413ca7fd007"}'></script>
-<!-- End Cloudflare Web Analytics -->
+    <!-- Cloudflare Web Analytics -->
+    <script defer src="https://static.cloudflareinsights.com/beacon.min.js" data-cf-beacon='{"token": "7c6a28636ca84f3b9c71d413ca7fd007"}'></script>
+    <!-- End Cloudflare Web Analytics -->
   </body>
 </html>
