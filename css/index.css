@@ -42,21 +42,21 @@ body {
 .site-title {
   font-family: Ubuntu;
   font-weight: 700;
-  color: blue;
+  color: green;
   font-size: 40px;
 }
 .site-slogan {
   font-family: Comfortaa;
   font-weight: 400;
   font-size: 20px;
-  color: black;
+  color: var(--dm-red);
 }
 .tag-line {
   align-self: flex-end;
   font-family: Ubuntu;
-  color: green;
+  color: blue;
   text-align: center;
-  font-size: 30px;
+  font-size: 15px;
 }
 
 .main-container {
@@ -80,11 +80,11 @@ body {
 }
 .container p {
   font-family: Roboto, sans-serif;
-  font-size: 20px;
+  font-size: 17px;
 }
 .skillset {
   font-family: Roboto;
-  font-size: 20px;
+  font-size: 17px;
 }
 
 /* Contact Me start  */

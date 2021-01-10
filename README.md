@@ -22,8 +22,8 @@ There is still more to come, including projects.
 
 You can reach me at
 <br />
-<a href="mailto:dmkamau475@gmail.com" target="_blank" rel="noopener">Email</a>
+[Email](mailto:dmkamau475@gmail.com)
 <br />
-<a href="https:www.linkedin.com/in/denmau" target="_blank" rel="noopener">Linked In</a>
+[Linked In](https:www.linkedin.com/in/denmau)
 <br />
-<a href="https:www.twitter.com/denmau6" target="_blank" rel="noopener">Twitter</a>
+[Twitter](https:www.twitter.com/denmau6)
