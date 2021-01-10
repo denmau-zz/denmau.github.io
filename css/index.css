@@ -4,6 +4,7 @@
 :root {
   --dm-red: #e87967;
   --dm-blue: #034a4a;
+  scroll-behavior: smooth;
 }
 
 body {
