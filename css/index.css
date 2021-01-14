@@ -110,6 +110,10 @@ body {
 .fa {
   color: blue;
 }
+.contact-form-header {
+  font-family: Comfortaa;
+  color: var(--dm-blue);
+}
 /* Contact Me End  */
 footer p {
   font-family: Roboto, sans-serif;
