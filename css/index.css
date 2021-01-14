@@ -43,14 +43,14 @@ body {
 .site-title {
   font-family: Ubuntu;
   font-weight: 700;
-  color: green;
+  color: var(--dm-red);
   font-size: 40px;
 }
 .site-slogan {
   font-family: Comfortaa;
   font-weight: 400;
   font-size: 20px;
-  color: var(--dm-red);
+  color: red;
 }
 .tag-line {
   align-self: flex-end;
@@ -61,7 +61,7 @@ body {
 }
 
 .main-container {
-  background: url("/img/undraw_coding_6mjf\ -mobile-size.png");
+  background: url("/img/undraw_coding_small.png");
   background-position: right;
   height: 300px;
   background-repeat: no-repeat;
@@ -138,16 +138,20 @@ footer p {
     font-size: 28px;
   }
   .main-container {
-    background: url("/img/undraw_coding_6mjf.png");
+    background: url("/img/undraw_coding_large.png");
     background-position: right;
     height: 420px;
     background-repeat: no-repeat;
   }
   .tag-line {
     text-align: left;
+    color: blue;
   }
   .flexed {
     height: 380px;
+  }
+  .site-slogan {
+    color: green;
   }
 }
 
