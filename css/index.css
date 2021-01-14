@@ -1,4 +1,9 @@
-@import url("/css/fonts.css");
+/* Start Import Fonts */
+/* Comfortaa */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+/* Ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* End Import Fonts */
 
 /* CSS variables  */
 :root {
@@ -50,7 +55,7 @@ body {
   font-family: Comfortaa;
   font-weight: 400;
   font-size: 20px;
-  color: red;
+  color: yellow;
 }
 .tag-line {
   align-self: flex-end;
