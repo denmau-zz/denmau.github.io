@@ -114,6 +114,13 @@ body {
   font-family: Comfortaa;
   color: var(--dm-blue);
 }
+/* Start Form Validation  */
+/* This class is added by JS ipon invalid input */
+input.invalid {
+  border-color: red;
+}
+
+/* End Form Validation  */
 /* Contact Me End  */
 footer p {
   font-family: Roboto, sans-serif;
