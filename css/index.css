@@ -26,7 +26,7 @@ body {
 .branding {
   color: var(--dm-red) !important;
   font-family: "Comfortaa";
-  font-size: 30px;
+  font-size: 20px;
 }
 .branding:hover {
   color: var(--dm-blue);
@@ -60,29 +60,19 @@ body {
 .site-slogan {
   font-family: Comfortaa;
   font-weight: 400;
-  font-size: 20px;
-  color: var(--dm-blue);
-}
-.tag-line {
-  align-self: flex-end;
-  font-family: Ubuntu;
-  color: blue;
-  text-align: center;
-  font-size: 15px;
+  font-size: 18px;
+  color: rgba(11, 15, 235, 0.856) ;
+  font-weight: bold;
 }
 
 .main-container {
-  /* background: url("/img/undraw_coding_small.png"); */
-  background-position: right;
-  height: 300px;
+  height: 420px;
+  background: url("/img/undraw_coding_small.png");
+  background-position: right;  
   background-repeat: no-repeat;
-}
-.flexed {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  height: 250px;
+  flex-direction: column;
 }
 .sub-title {
   font-family: Comfortaa;
@@ -150,19 +140,8 @@ footer p {
   }
   .main-container {
     background: url("/img/undraw_coding_large.png");
-    background-position: right;
-    height: 420px;
     background-repeat: no-repeat;
-  }
-  .tag-line {
-    text-align: left;
-    color: blue;
-  }
-  .flexed {
-    height: 380px;
-  }
-  .site-slogan {
-    color: green;
+    background-position: right;
   }
 }
 
