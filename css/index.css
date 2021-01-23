@@ -12,6 +12,12 @@
   scroll-behavior: smooth;
 }
 
+/* Target blank icon */
+/* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
+a[target="_blank"]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
+}
 body {
   animation-duration: 2s;
 }
@@ -40,10 +46,23 @@ body {
 }
 /* Navigation end */
 
+/* Center Horizontal Line */
+.line:before {
+  content: "";
+  border-top: solid 1px black;
+  width: 300px;
+  height: 1px;
+  position: absolute;
+  top: 50%;
+}
+
 .title-text {
   font-family: Comfortaa;
   font-size: 20px;
   font-weight: 400;
+  /* padding: 0 20px 0 0; */
+  position: relative;
+  z-index: 5;
 }
 .site-title {
   font-family: Ubuntu;
@@ -55,7 +74,7 @@ body {
   font-family: Comfortaa;
   font-weight: 400;
   font-size: 20px;
-  color: yellow;
+  color: var(--dm-blue);
 }
 .tag-line {
   align-self: flex-end;
@@ -66,7 +85,7 @@ body {
 }
 
 .main-container {
-  background: url("/img/undraw_coding_small.png");
+  /* background: url("/img/undraw_coding_small.png"); */
   background-position: right;
   height: 300px;
   background-repeat: no-repeat;
@@ -80,13 +99,16 @@ body {
 }
 .sub-title {
   font-family: Comfortaa;
-  font-size: 30;
+  font-size: 22px;
   color: var(--dm-blue);
   font-weight: 400;
 }
 .container p {
   font-family: Roboto, sans-serif;
-  font-size: 17px;
+  font-size: 19px;
+}
+ul li {
+  font-size: 19px;
 }
 .skillset {
   font-family: Roboto;
@@ -94,19 +116,13 @@ body {
 }
 
 /* Contact Me start  */
-.social-media-container {
-  color: var(--dm-red);
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-around;
-}
+
 .social-media {
   color: var(--dm-blue);
   font-family: Roboto;
   font-size: 20px;
-  /* display: flex; */
+  display: flex;
+  /* border: #034a4a 1px solid; */
 }
 .social-media a {
   text-decoration: none;
@@ -141,6 +157,9 @@ footer p {
   }
   .title-text {
     font-size: 28px;
+  }
+  .sub-title {
+    font-size: 30;
   }
   .main-container {
     background: url("/img/undraw_coding_large.png");
