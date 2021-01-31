@@ -120,6 +120,17 @@ ul li {
   font-family: Comfortaa;
   color: var(--dm-blue);
 }
+.btn-form-submit {
+  background-color: var(--dm-red);
+  border-color: var(--dm-red);
+  color: white;
+  width: 68%;
+}
+.btn-form-submit:hover {
+  color: white;
+  background-color: var(--dm-blue);
+  border-color: var(--dm-blue);
+}
 /* Start Form Validation  */
 /* This class is added by JS ipon invalid input */
 input.invalid {
