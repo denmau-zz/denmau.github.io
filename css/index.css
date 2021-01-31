@@ -7,8 +7,9 @@
 
 /* CSS variables  */
 :root {
-  --dm-red: #e87967;
-  --dm-blue: #034a4a;
+  /* --dm-red: #FF5E2B; */
+  --dm-red: #db0a5b;
+  --dm-blue: #7a4aec;
   scroll-behavior: smooth;
 }
 
@@ -20,6 +21,8 @@ a[target="_blank"]:after {
 }
 body {
   animation-duration: 2s;
+  background-color: #dadef7;
+  /* background-color: #B1ADFF; */
 }
 
 /* Navigation start */
@@ -48,8 +51,9 @@ body {
 
 .title-text {
   font-family: Comfortaa;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 400;
+  color: black;
 }
 .site-title {
   font-family: Ubuntu;
@@ -61,15 +65,19 @@ body {
   font-family: Comfortaa;
   font-weight: 400;
   font-size: 18px;
-  color:yellow;
-  font-weight: bold;
+  color: #000000;
+  font-weight: 700;
+}
+.secondary-color {
+  color: var(--dm-red);
 }
 
 .main-container {
   height: 420px;
-  background: url("/img/undraw_coding_small.png");
-  background-position: right;  
+  background: url("/img/undraw_programming_2svr.svg");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -106,7 +114,7 @@ ul li {
   color: var(--dm-blue);
 }
 .fa {
-  color: blue;
+  color: var(--dm-red);
 }
 .contact-form-header {
   font-family: Comfortaa;
@@ -123,7 +131,6 @@ input.invalid {
 footer p {
   font-family: Roboto, sans-serif;
   font-size: 15px;
-  color: var(--dm-blue);
 }
 /* Footer End  */
 
@@ -137,11 +144,6 @@ footer p {
   }
   .sub-title {
     font-size: 30;
-  }
-  .main-container {
-    background: url("/img/undraw_coding_large.png");
-    background-repeat: no-repeat;
-    background-position: right;
   }
 }
 
