@@ -15,7 +15,7 @@
 ## Libraries
 
 - Animate - 1 line CSS animations
-- Font Awesome - nice icons
+- Font Awesome - icons
 - CloudFlare - for analytics
 - pageclip - server for HTML forms
 
