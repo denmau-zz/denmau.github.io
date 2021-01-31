@@ -147,6 +147,7 @@ footer p {
 
 /* Media Queries */
 @media (min-width: 720px) {
+  /* I developed this site mobile-first */
   .site-title {
     font-size: 60px;
   }
