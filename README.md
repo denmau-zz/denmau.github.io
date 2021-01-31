@@ -1,8 +1,8 @@
-# 👋 Hi am Dennis Kamau, its nice to meet you
+# 👋 Hi am Dennis Kamau
 
-## This is my website available live at <a href="https://www.denmau.me">denmau.me</a>
+## This code runs my website live at <a href="https://www.denmau.me">www.denmau.me</a>
 
-## Stack
+## Tech Stack
 
 - HTML
 - CSS
@@ -17,6 +17,7 @@
 - Animate - 1 line CSS animations
 - Font Awesome - nice icons
 - CloudFlare - for analytics
+- pageclip - server for HTML forms
 
 There is still more to come, including projects.
 
