@@ -22,7 +22,6 @@ a[target="_blank"]:after {
 body {
   animation-duration: 2s;
   background-color: #dadef7;
-  /* background-color: #B1ADFF; */
 }
 
 /* Navigation start */
@@ -65,7 +64,8 @@ body {
   font-family: Comfortaa;
   font-weight: 400;
   font-size: 18px;
-  color: #000000;
+  /* color: #000000; */
+  color: red;
   font-weight: 700;
 }
 .secondary-color {
