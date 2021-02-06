@@ -64,9 +64,14 @@
     <section>
       <div class="container-banner-image">
         <div class="container main-container">
-          <h3 class="title-text animate__animated animate__shakeX">Hi,</h3>
+                                                                  <!-- 
+                                                                    Escapes:
+                                                                      &lt; (<)
+                                                                      &gt; (>)
+                                                                  -->
+          <h3 class="title-text animate__animated animate__shakeX">&lt;Hi /&gt;</h3>
           <h2 class="site-title animate__animated animate__bounceInDown mt-2">I'M DENNIS KAMAU</h2>
-          <h4 class="site-slogan animate__animated animate__backInRight mt-3"> UNDERGRADUATE | SOFTWARE ENGINEER </h4>
+          <h4 class="site-slogan animate__animated animate__backInRight mt-3">UNDERGRADUATE | SOFTWARE ENGINEER</h4>
         </div>
       </div>
     </section>
@@ -80,28 +85,23 @@
           <div class="col-md-6">
             <h6 class="mt-2">🌱 I’m currently learning ..</h6>
             <ul class="skillset">
-              <li>
-                Android Development with Java taught by
-                <a href="http://www.emobilis.ac.ke/" target="_blank">eMobilis</a>
-              </li>
-              <ul>
-                <li><a href="https://github.com/denmau/FoodFit">Here's my project</a> for this training</li>
-                <li>so far I have learnt:</li>
-                <ul>
-                  <li>Firebase Authentication</li>
-                  <li>Working with third party libraries</li>
-                  <li>Layout</li>
-                  <li>Database - SQLite</li>
-                  <li>Mobile App Development Life cycle</li>
-                </ul>
-              </ul>
               <li>Data Structures & Algorithms</li>
+              <li>Machine Learning & Artificial Intelligence</li>
+            </ul>
             </ul>
           </div>
           <div class="col-md-6">
             <h6 class="mt-2">🔭Skills</h6>
             <ul class="skillset">
               <li>Java Web Development with Spring Boot and Vaadin</li>
+              <li>Android Development with Java</li>
+                Check out <a href="https://github.com/denmau/FoodFit">my android project</a> that encompasses the following:
+              <ul>
+                <li>Firebase Authentication</li>
+                <li>Working with third party libraries</li>
+                <li>Layout</li>
+                <li>Mobile App Development Life cycle</li>
+              </ul>
               <li>Front-End Development: Bootstrap (HTML, CSS)</li>
               <li>Database: SQL</li>
             </ul>
@@ -135,7 +135,15 @@
             <h2 class="sub-title">🏫Educational Background</h2>
             <div class="px-5 mt-3">
               <p>
-                2019 to Present<br />
+                Jan 11, 2021 to Feb 6, 2021<br />
+                <span class="secondary-color"><b>eMobilis Mobile Technology Training Institute</b></span
+                ><br />
+                Android Development Bootcamp (80 hours)<br />
+                Personal Project: <a href="https://github.com/denmau/FoodFit">Food Fit Recipes App</a><br />
+              </p>
+              <hr />
+              <p>
+                Sept 2019 to Present<br />
                 <span class="secondary-color"><b>South Eastern Kenya University</b></span
                 ><br />
                 Bachelor of Science (Computer Science)<br />
@@ -143,7 +151,7 @@
               </p>
               <hr />
               <p>
-                2015 to 2018<br />
+                Jan 2015 to Dec 2018<br />
                 <span class="secondary-color"><b>RONGAI AGRICULTURAL & TECHNICAL HIGH SCHOOL</b></span
                 ><br />
                 Kenya Certificate of Secondary Education (KCSE)<br />
@@ -222,7 +230,7 @@
                   name="message"
                   class="form-control"
                   id="inputMessage"
-                  placeholder="Hello"
+                  placeholder="Message"
                 ></textarea>
               </div>
             </div>
