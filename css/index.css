@@ -10,6 +10,7 @@
   /* --dm-red: #FF5E2B; */
   --dm-red: #db0a5b;
   --dm-blue: #7a4aec;
+  --bg-color: #dadef7;
   scroll-behavior: smooth;
 }
 
@@ -21,7 +22,7 @@ a[target="_blank"]:after {
 }
 body {
   animation-duration: 2s;
-  background-color: #dadef7;
+  background-color: var(--bg-color);
 }
 
 /* Navigation start */
@@ -46,6 +47,11 @@ body {
 .nav-link.active {
   color: var(--dm-red);
 }
+.btn-get-CV {
+  background-color: var(--dm-red);
+  border-color: var(--dm-red);
+  color: var(--bg-color);
+}
 /* Navigation end */
 
 .title-text {
@@ -63,21 +69,28 @@ body {
 .site-slogan {
   font-family: Comfortaa;
   font-weight: 400;
-  font-size: 18px;
-  /* color: #000000; */
-  color: red;
+  font-size: 12px;
+  color: green;
+  background-color: #dadef7;
   font-weight: 700;
+  width: fit-content;
 }
 .secondary-color {
   color: var(--dm-red);
 }
 
-.main-container {
-  height: 420px;
+.container-banner-image {
   background: url("/img/undraw_programming_2svr.svg");
-  background-position: center center;
+  /* height: 320px; */
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
+
+  display: flex;
+  justify-content: center;
+}
+
+.main-container {
+  height: inherit;
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -132,7 +145,7 @@ ul li {
   border-color: var(--dm-blue);
 }
 /* Start Form Validation  */
-/* This class is added by JS ipon invalid input */
+/* This class is added by JS upon invalid input */
 input.invalid {
   border-color: red;
 }
@@ -147,7 +160,15 @@ footer p {
 
 /* Media Queries */
 @media (min-width: 720px) {
-  /* I developed this site mobile-first */
+  /* I developed this site mobile-first, so
+  this media querry is for handling large screen */
+  .container-banner-image {
+    background: url("/img/undraw_programming_2svr.svg");
+    height: 420px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
   .site-title {
     font-size: 60px;
   }
@@ -156,6 +177,9 @@ footer p {
   }
   .sub-title {
     font-size: 30;
+  }
+  .site-slogan {
+    font-size: 18px;
   }
 }
 

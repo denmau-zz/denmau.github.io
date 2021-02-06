@@ -21,23 +21,9 @@
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="/css/index.css" />
     <script type="text/javascript">
+      // Restrict protocol to purely https
       var host = "denmau.me";
       if (host == window.location.host && window.location.protocol != "https:") window.location.protocol = "https";
-
-      // Collect all the inputs
-      const inputs = document.querySelectorAll("input, select, textarea");
-
-      // Adds an invalid class to an invalid input
-      // This input is then styled by CSS to show invalid input
-      inputs.forEach((input) => {
-        input.addEventListener(
-          "invalid",
-          (event) => {
-            input.classList.add("invalid");
-          },
-          false
-        );
-      });
     </script>
   </head>
   <body>
@@ -59,7 +45,7 @@
           </div>
         </div>
 
-        <a href="/assets/Dennis Kamau CV.pdf" class="btn btn-success text-nowrap btn-sm" role="button">Get CV</a>
+        <a href="/assets/Dennis Kamau CV.pdf" class="btn btn-get-CV text-nowrap btn-sm" role="button">Get CV</a>
 
         <button
           class="navbar-toggler"
@@ -76,10 +62,12 @@
       <!-- Navigation Bar End -->
     </header>
     <section>
-      <div class="container main-container">
-        <h3 class="title-text animate__animated animate__shakeX">Hi</h3>
-        <h2 class="site-title animate__animated animate__bounceInDown mt-2">I'M DENNIS KAMAU</h2>
-        <h4 class="site-slogan animate__animated animate__backInRight mt-3">UNDERGRADUATE | SOFTWARE ENGINEER</h4>
+      <div class="container-banner-image">
+        <div class="container main-container">
+          <h3 class="title-text animate__animated animate__shakeX">Hi,</h3>
+          <h2 class="site-title animate__animated animate__bounceInDown mt-2">I'M DENNIS KAMAU</h2>
+          <h4 class="site-slogan animate__animated animate__backInRight mt-3"> UNDERGRADUATE | SOFTWARE ENGINEER </h4>
+        </div>
       </div>
     </section>
     <!-- About Me Section start -->
