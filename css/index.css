@@ -81,10 +81,8 @@ body {
 
 .container-banner-image {
   background: url("/img/undraw_programming_2svr.svg");
-  /* height: 320px; */
   background-repeat: no-repeat;
   background-size: contain;
-
   display: flex;
   justify-content: center;
 }
