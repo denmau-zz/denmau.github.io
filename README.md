@@ -13,10 +13,9 @@
 - Bootstrap 
 
 ## Libraries
-
 - Animate - 1 line CSS animations
 - Font Awesome - icons
-- CloudFlare - for analytics
+- CloudFlare - for caching & page visit analytics
 - pageclip - server for HTML forms
 
 There is still more to come, including projects.
