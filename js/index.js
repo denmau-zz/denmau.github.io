@@ -13,6 +13,6 @@ inputs.forEach((input) => {
   );
 });
 
-function alertCVNotAvailable() {
-  alert("Hello, I am in the process of editing my CV, it should be up in a few days. Thank you.");
-}
+// function alertCVNotAvailable() {
+//   alert("Hello, I am in the process of editing my CV, it should be up in a few days. Thank you.");
+// }
