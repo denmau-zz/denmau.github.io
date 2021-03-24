@@ -5,4 +5,4 @@ name = "javascript"
 enabled = true
 
   [analyzers.meta]
-  style_guide = "airbnb
+  style_guide = "airbnb"
