@@ -10,9 +10,10 @@
 
 ## Frameworks
 
-- Bootstrap 
+- Bootstrap
 
 ## Libraries
+
 - Animate - 1 line CSS animations
 - Font Awesome - icons
 - CloudFlare - for caching & page visit analytics
