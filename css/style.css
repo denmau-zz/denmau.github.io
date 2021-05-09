@@ -87,14 +87,13 @@ main .hero-area-container .hero-area .about-me-summary {
   font-family: Ubuntu, serif;
   font-size: 12px;
   border: white 1px solid;
-  padding-bottom: 2rem;
 }
 
 .fadeblacktogrey {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 10px;
+  height: 30px;
   background-color: #fd3e67;
 }
 
@@ -102,7 +101,7 @@ main .hero-area-container .hero-area .about-me-summary {
   margin: 0;
   padding: 0;
   width: 100%;
-  height: 10px;
+  height: 30px;
   background-color: #fd3e67;
 }
 
@@ -116,5 +115,61 @@ main .hero-area-container .hero-area .about-me-summary {
 .section-sub-title {
   color: #645dd7;
   font-size: 1rem;
+}
+
+#skills .cards-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#skills .cards-container .card {
+  height: 94px;
+  width: 87px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  border: 0.5px solid #ffe74c;
+}
+
+#skills .cards-container .card img {
+  max-height: 68px;
+  max-width: 60px;
+}
+
+#skills .ml-skills-container .card {
+  max-width: 255px;
+  max-height: 94px;
+  height: 94px;
+  border: #ffe74c 1px solid;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#skills .ml-skills-container .card .card-body {
+  height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#skills .ml-skills-container .card .card-body p {
+  margin: 0;
+  color: #645dd7;
+  font-family: Comfortaa, serif;
+  font-size: 14px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+#skills .more-skills {
+  font-family: Poppins, serif;
+  font-size: 0.8rem;
 }
 /*# sourceMappingURL=style.css.map */
