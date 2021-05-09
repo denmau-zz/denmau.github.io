@@ -1,184 +1,211 @@
 /* Start Import Fonts */
-/* Comfortaa */
+/* Font - Comfortaa */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
-/* Ubuntu */
+/* Font - Ubuntu */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 /* End Import Fonts */
 
 /* CSS variables  */
 :root {
-  /* --dm-red: #FF5E2B; */
-  --dm-red: #db0a5b;
-  --dm-blue: #7a4aec;
-  --bg-color: #dadef7;
-  scroll-behavior: smooth;
+    --site-red: #FD3E67;
+    --site-blue: #645DD7;
+    --site-bg-grey: #C3D2D5;
+    --site-black: #1E212B;
+    --site-yellow: #FFE74C;
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
 }
 
 /* Target blank icon */
 /* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
 a[target="_blank"]:after {
-  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
-  margin: 0 3px 0 5px;
+    content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+    margin: 0 3px 0 5px;
 }
+
 body {
-  animation-duration: 2s;
-  background-color: var(--bg-color);
+    animation-duration: 2s;
+    background-color: var(--site-bg-grey);
 }
 
 /* Navigation start */
-.branding {
-  color: var(--dm-red) !important;
-  font-family: "Comfortaa";
-  font-size: 20px;
+a.branding {
+    /*color: var(--site-red);*/
+    color: red;
+    font-family: 'Comfortaa', cursive;
+    font-size: 12em;
 }
-.branding:hover {
-  color: var(--dm-blue);
+
+a.branding:hover {
+    color: var(--site-blue);
 }
+
 .navigation-item {
-  color: var(--dm-blue);
-  font-family: "Ubuntu";
-  font-size: 20px;
+    color: var(--site-blue);
+    font-family: "Ubuntu", serif;
+    font-size: 20px;
 }
+
 .navigation-item:hover {
-  color: var(--dm-red);
-  transition: 0.5s;
-  border-bottom: 1px solid var(--dm-blue);
+    color: var(--site-red);
+    transition: 0.5s;
+    border-bottom: 1px solid var(--site-blue);
 }
+
 .nav-link.active {
-  color: var(--dm-red);
+    color: var(--site-red);
 }
-.btn-get-CV {
-  background-color: var(--dm-red);
-  border-color: var(--dm-red);
-  color: var(--bg-color);
-}
+
+
 /* Navigation end */
 
 .title-text {
-  font-family: Comfortaa;
-  font-size: 22px;
-  font-weight: 400;
-  color: black;
+    font-family: Comfortaa;
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
 }
+
 .site-title {
-  font-family: Ubuntu;
-  font-weight: 700;
-  color: var(--dm-red);
-  font-size: 40px;
+    font-family: Ubuntu;
+    font-weight: 700;
+    color: var(--site-red);
+    font-size: 40px;
 }
+
 .site-slogan {
-  font-family: Comfortaa;
-  font-weight: 400;
-  font-size: 12px;
-  color: #7a4aec;
-  background-color: #dadef7;
-  font-weight: 700;
-  width: fit-content;
+    font-family: Comfortaa;
+    font-weight: 400;
+    font-size: 12px;
+    color: #7a4aec;
+    background-color: #dadef7;
+    font-weight: 700;
+    width: fit-content;
 }
+
 .secondary-color {
-  color: var(--dm-red);
+    color: var(--site-red);
 }
 
 .container-banner-image {
-  background: url("/img/undraw_programming_2svr.svg");
-  background-repeat: no-repeat;
-  background-size: contain;
-  display: flex;
-  justify-content: center;
+    background: url("/img/undraw_programming_2svr.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    justify-content: center;
 }
 
-.main-container {
-  height: inherit;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+.hero-area {
+    height: inherit;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
+
 .sub-title {
-  font-family: Comfortaa;
-  font-size: 22px;
-  color: var(--dm-blue);
-  font-weight: 400;
+    font-family: Comfortaa;
+    font-size: 22px;
+    color: var(--site-blue);
+    font-weight: 400;
 }
+
 .container p {
-  font-family: Roboto, sans-serif;
-  font-size: 19px;
+    font-family: Roboto, sans-serif;
+    font-size: 19px;
 }
+
 ul li {
-  font-size: 19px;
+    font-size: 19px;
 }
+
 .skillset {
-  font-family: Roboto;
-  font-size: 17px;
+    font-family: Roboto;
+    font-size: 17px;
 }
 
 /* Contact Me start  */
 
 .social-media {
-  color: var(--dm-blue);
-  font-family: Roboto;
-  font-size: 20px;
-  display: flex;
-  /* border: #034a4a 1px solid; */
+    color: var(--site-blue);
+    font-family: Roboto;
+    font-size: 20px;
+    display: flex;
+    /* border: #034a4a 1px solid; */
 }
+
 .social-media a {
-  text-decoration: none;
-  color: var(--dm-blue);
+    text-decoration: none;
+    color: var(--site-blue);
 }
+
 .fa {
-  color: var(--dm-red);
+    color: var(--site-red);
 }
+
 .contact-form-header {
-  font-family: Comfortaa;
-  color: var(--dm-blue);
+    font-family: Comfortaa;
+    color: var(--site-blue);
 }
+
 .btn-form-submit {
-  background-color: var(--dm-red);
-  border-color: var(--dm-red);
-  color: white;
-  width: 68%;
+    background-color: var(--site-red);
+    border-color: var(--site-red);
+    color: white;
+    width: 68%;
 }
+
 .btn-form-submit:hover {
-  color: white;
-  background-color: var(--dm-blue);
-  border-color: var(--dm-blue);
+    color: white;
+    background-color: var(--site-blue);
+    border-color: var(--site-blue);
 }
+
 /* Start Form Validation  */
 /* This class is added by JS upon invalid input */
 input.invalid {
-  border-color: red;
+    border-color: red;
 }
 
 /* End Form Validation  */
 /* Contact Me End  */
 footer p {
-  font-family: Roboto, sans-serif;
-  font-size: 15px;
+    font-family: Roboto, sans-serif;
+    font-size: 15px;
 }
+
 /* Footer End  */
 
 /* Media Queries */
 @media (min-width: 720px) {
-  /* I developed this site mobile-first, so
-  this media querry is for handling large screen */
-  .container-banner-image {
-    background: url("/img/undraw_programming_2svr.svg");
-    height: 420px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: contain;
-  }
-  .site-title {
-    font-size: 60px;
-  }
-  .title-text {
-    font-size: 28px;
-  }
-  .sub-title {
-    font-size: 30;
-  }
-  .site-slogan {
-    font-size: 18px;
-  }
+    /* I developed this site mobile-first, so
+    this media querry is for handling large screen */
+    .container-banner-image {
+        background: url("/img/undraw_programming_2svr.svg");
+        height: 420px;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    .site-title {
+        font-size: 60px;
+    }
+
+    .title-text {
+        font-size: 28px;
+    }
+
+    .sub-title {
+        font-size: 30;
+    }
+
+    .site-slogan {
+        font-size: 18px;
+    }
 }
 
 /* 
