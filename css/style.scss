@@ -1,37 +1,117 @@
+$site-red: #fd3e67;
+$site-blue: #645dd7;
+$site-bg-grey: #c3d2d5;
+$site-black: #1e212b;
+$site-yellow: #ffe74c;
+$white: white;
 :root {
-  $site-red: #FD3E67;
-  $site-blue: #645DD7;
-  $site-bg-grey: #C3D2D5;
-  $site-black: #1E212B;
-  $site-yellow: #FFE74C;
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+a {
+    text-decoration: none;
+}
+
+.color-black {
+    color: $site-black;
+}
+
+.color-red {
+    color: $site-red;
+}
+
+.color-blue {
+    color: $site-red;
+}
+
+.color-white {
+    color: white;
+}
+
+.background-black {
+    background-color: $site-black;
+}
+
+.background-grey {
+    background-color: $site-bg-grey;
+}
 
 body {
-  color: $site-black;
-  font-family: poppins;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    color: $site-black;
+    font-family: "poppins", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: $site-bg-grey;
 }
 
-.navbar-container {
-  color: $site-grey;
-  background-color: $site-black;
-  font-size: 12rem;
+nav {
+    .branding {
+        color: $site-red;
+    }
+}
 
-  .nav-link {
-    color: $site-grey;
-    font-size: 12em;
-  }
+main {
+    .hero-area-container {
+        min-height: 75vh;
+        background-color: $site-black;
+        .hero-area {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-height: inherit;
+            justify-content: space-around;
+            align-items: flex-start;
+            border: $site-yellow 2px solid;
+            .greetings {
+                color: $white;
+                text-transform: uppercase;
+                border: white 1px solid;
+            }
+            .hero-text {
+                color: $site-yellow;
+                text-transform: uppercase;
+                font-family: Comfortaa, sans-serif;
+                font-weight: lighter;
+                font-size: 21px;
+                border: white 1px solid;
+            }
+            .about-me-summary {
+                font-family: Ubuntu, serif;
+                font-size: 12px;
+                border: white 1px solid;
+                padding-bottom: 2rem;
+            }
+        }
+    }
+}
 
-  a.navbar-brand {
+.fadeblacktogrey {
+    //  TODO: Add this feature
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+    background-color: $site-red;
+}
+
+.fadegreytoblack {
+    //  TODO: Add this feature
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 10px;
+    background-color: $site-red;
+}
+
+.section-title {
+    margin-top: 2rem;
     color: $site-red;
-    font-size: 13rem
-  }
+    font-family: Comfortaa, serif;
+    font-size: 25px;
+}
 
-  a.active {
-    color: $site-yellow;
-  }
+.section-sub-title {
+    color: $site-blue;
+    font-size: 1rem;
 }

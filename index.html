@@ -1,14 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- Canonical Link -->
-    <link
-            rel="canonical"
-            href=" { { https://www.denmau.me } }{ { index.html } }"
-    />
+    <link rel="canonical" href=" { { https://www.denmau.me } }{ { index.html } }" />
 
     <!-- bootstrap -->
     <!--    <link-->
@@ -17,9 +15,7 @@
     <!--      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"-->
     <!--      crossorigin="anonymous"-->
     <!--    />-->
-    <link
-            rel="stylesheet"
-            href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- animate -->
     <!--    <link-->
     <!--            rel="stylesheet"-->
@@ -35,7 +31,7 @@
     <!--    />-->
 
     <!-- Main stylesheet -->
-    <link rel="stylesheet" href="/css/style.css"/>
+    <link rel="stylesheet" href="css/style.css" />
     <title>Dennis Kamau | Full Stack ML Engineer</title>
 
     <!-- Restrict protocol to https-->
@@ -45,33 +41,23 @@
             window.location.protocol = "https";
     </script>
 </head>
+
 <body>
-<div class="container-fluid">
-    <div class="container">
-        <!-- Navigation bar -->
-        <nav
-                class="navbar navbar-expand-md"
-        >
-            <a href="https://www.denmau.me" class="branding">
+    <div class="container-fluid background-black">
+        <div class="container">
+            <!-- Navigation bar -->
+            <nav class="navbar navbar-expand-md background-black">
+                <a href="https://www.denmau.me" class="branding">
                 denmau
             </a>
 
-            <button
-                    class="navbar-toggler"
-                    type="button"
-                    data-toggle="collapse"
-                    data-target="#navbarText"
-                    aria-controls="navbarText"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"
-            >
-                <img src="img/menu.png" alt="menu" height="12">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="img/menu.png" alt="menu" class="h-100">
             </button>
 
-            <div class="collapse navbar-collapse text-right" id="navbarText">
-                <div class="navbar-nav ml-auto flex-nowrap">
-                    <a class="nav-item nav-link active" href="https://www.denmau.me"
-                    >Home</a
+                <div class="collapse navbar-collapse text-right" id="navbarText">
+                    <div class="navbar-nav ml-auto flex-nowrap">
+                        <a class="nav-item nav-link active" href="https://www.denmau.me">Home</a
                     >
                     <a class="nav-item nav-link" href="#aboutMe"
                     >Projects</a
@@ -85,28 +71,29 @@
         </nav>
         <!-- Navigation Bar End -->
     </div>
-    <main>
-        <div class="container">
-            <div class="hero-area-container">
-                <div class="container hero-area">
-                    <p>Hello, I'M DENNIS KAMAU</p>
-                    <p>I develop for the web</p>
-                    <p>I am a 21 year old Web Developer and Machine Learning Engineer.
-                        I study Computer Science at South Eastern Kenya University. I am fortunate to have worked
-                        alongside
-                        senior developers who I envy and draw inspiration from. This has taught me to write code that is
-                        maintainable, easy to reuse and understand.</p>
-
-                </div>
-            </div>
-        </div>
-    </main>
 </div>
+<main>
+    <div class="container-fluid hero-area-container">
+        <div class="container hero-area color-white">
+            <div class="greetings">Hello, I'M <span class="color-red">DEN</span>NIS KA<span class="color-red">MAU</span>
+            </div>
+            <div class="hero-text">I develop for the web</div>
+            <div class="about-me-summary">I am a 21 year old Web Developer and Machine Learning Engineer.
+                I study Computer Science at South Eastern Kenya University. I am fortunate to have worked
+                alongside
+                senior developers who I envy and draw inspiration from. This has taught me to write code that is
+                maintainable, easy to reuse and understand.
+            </div>
+            <!-- TODO: animated upward arrow to show scrolling needed-->
+        </div>
+    </div>
+</main>
+<div class="fadeblacktogrey"></div>
 <!-- Skills  -->
 <section id="skills">
     <div class="container">
-        <h2>Skills</h2>
-        <p>
+        <h2 class="section-title">Skills</h2>
+        <p class="section-sub-title">
             Web Development
         </p>
         <div class="row border border-dark">
@@ -174,7 +161,7 @@
                 </div>
             </div>
         </div>
-        <p>
+        <p class="section-sub-title">
             Machine Learning & AI
         </p>
         <div class="row border border-dark">
@@ -231,46 +218,41 @@
                         </div>
                         <div class="card-footer">
                             <a href="" class="btn btn-outline-secondary">View on GitHub</a>
-                        </div>
                     </div>
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="row">
-                                <div class="col">
-                                    <img src="img/FoodFitScreenshot1.png" alt="foodfit app" height="218">
-                                </div>
-                                <div class="col">
-                                    <p>Food Fit</p>
-                                    <img src="img/java.png" alt="java">
-                                    <img src="img/firebase.png" alt="firebase">
-                                </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <div class="row">
+                            <div class="col">
+                                <img src="img/FoodFitScreenshot1.png" alt="foodfit app" height="218">
                             </div>
-                            <div class="card-footer">
-                                <a href="" class="btn btn-outline-secondary">View on GitHub</a>
+                            <div class="col">
+                                <p>Food Fit</p>
+                                <img src="img/java.png" alt="java">
+                                <img src="img/firebase.png" alt="firebase">
                             </div>
+                        </div>
+                        <div class="card-footer">
+                            <a href="" class="btn btn-outline-secondary">View on GitHub</a>
                         </div>
                     </div>
                 </div>
-            </div>
         </div>
     </div>
-</section>
+    </div>
+    </div>
+    </section>
 
-<!-- Contact Me Section start -->
-<section id="contactMe">
-    <div class="container">
-        <h2>Contact Me</h2>
+    <!-- Contact Me Section start -->
+    <section id="contactMe">
+        <div class="container">
+            <h2>Contact Me</h2>
 
-        <!-- Contact Form Start -->
-        <form
-                action="https://send.pageclip.co/e76zC4PmHNLeDcDrHMbqag1y9aLlyG6O/leave-message"
-                class="pageclip-form border border-success px-2"
-                method="post"
-        >
-            <div class="form-container">
-                <div class="form-group row">
-                    <label for="your_name" class="form-label"
-                    >Name</label
+            <!-- Contact Form Start -->
+            <form action="https://send.pageclip.co/e76zC4PmHNLeDcDrHMbqag1y9aLlyG6O/leave-message" class="pageclip-form border border-success px-2" method="post">
+                <div class="form-container">
+                    <div class="form-group row">
+                        <label for="your_name" class="form-label">Name</label
                     >
                     <input
                             required
@@ -283,31 +265,24 @@
                 </div>
                 <div class="form-group row">
                     <label for="your_email" class="form-label">Email</label>
-                    <input
-                            required
-                            type="email"
-                            class="form-control"
-                            name="email"
-                            id="your_email"
-                            placeholder="Email Address"
-                    />
-                </div>
-                <div class="form-group row">
-                    <label for="your_message" class=form-label"
+                        <input required type="email" class="form-control" name="email" id="your_email" placeholder="Email Address" />
+                    </div>
+                    <div class="form-group row">
+                        <label for="your_message" class=form-label "
                     >Message</label
                     >
                     <textarea
                             required
-                            name="message"
-                            class="form-control"
-                            id="your_message"
-                            placeholder="Message"
+                            name="message "
+                            class="form-control "
+                            id="your_message "
+                            placeholder="Message "
                     ></textarea>
                 </div>
-                <div class="row">
+                <div class="row ">
                     <button
-                            type="submit"
-                            class="pageclip-form__submit btn btn-primary btn-form-submit rounded"
+                            type="submit "
+                            class="pageclip-form__submit btn btn-primary btn-form-submit rounded "
                     >
                         <span>Send Message</span>
                     </button>
@@ -316,16 +291,16 @@
         </form>
         <!-- Contact Form End -->
 
-        <div class="row">
-            <a href="mailto:dmkamau475@gmail.com" class="col social-container rounded">
+        <div class="row ">
+            <a href="mailto:dmkamau475@gmail.com " class="col social-container rounded ">
                 <div>
-                    <img src="img/iconmonstr-email.svg" alt="twitter" height="15">
+                    <img src="img/iconmonstr-email.svg " alt="twitter " height="15 ">
                     dmkamau475@gmail.com
                 </div>
             </a>
-            <a href="#" class="col social-container rounded">
+            <a href="# " class="col social-container rounded ">
                 <div>
-                    <img src="img/iconmonstr-whatsapp.svg" alt="twitter" height="15">
+                    <img src="img/iconmonstr-whatsapp.svg " alt="twitter " height="15 ">
                     +254759360020
                 </div>
             </a>
@@ -336,36 +311,36 @@
 
 <!--Footer Start-->
 <section>
-    <div class="container-fluid">
-        <div class="container">
+    <div class="container-fluid ">
+        <div class="container ">
             <p>All rights reserved | Copyright © 2021</p>
             <p>Naivasha, Kenya</p>
             <p>icons by Flaticon & imgmonstr, hero image from undraw</p>
 
-            <div class="row">
+            <div class="row ">
 
-                <a href="https://www.twitter.com/devdenmau" class="col social-container rounded">
+                <a href="https://www.twitter.com/devdenmau " class="col social-container rounded ">
                     <div>
-                        <img src="img/iconmonstr-twitter.svg" alt="twitter" height="15">
+                        <img src="img/iconmonstr-twitter.svg " alt="twitter " height="15 ">
                     </div>
                 </a>
 
-                <a href="https://www.linkedin.com/in/denmau" class="col social-container rounded">
+                <a href="https://www.linkedin.com/in/denmau " class="col social-container rounded ">
                     <div
                     >
-                        <img src="img/iconmonstr-linkedin.svg" alt="linkedin" height="15">
+                        <img src="img/iconmonstr-linkedin.svg " alt="linkedin " height="15 ">
                     </div>
                 </a>
 
-                <a href="https://www.github.com/denmau" class="col social-container rounded">
+                <a href="https://www.github.com/denmau " class="col social-container rounded ">
                     <div>
-                        <img src="img/iconmonstr-github.svg" alt="github" height="15">
+                        <img src="img/iconmonstr-github.svg " alt="github " height="15 ">
                     </div>
                 </a>
 
-                <a href="mailto:dmkamau475@gmail.com" class="col social-container rounded">
+                <a href="mailto:dmkamau475@gmail.com " class="col social-container rounded ">
                     <div>
-                        <img src="img/iconmonstr-email.svg" alt="email" height="15">
+                        <img src="img/iconmonstr-email.svg " alt="email " height="15 ">
                     </div>
                 </a>
             </div>
@@ -377,32 +352,32 @@
 
 </body>
 <!-- Custom JS FIle  -->
-<script src="/js/index.js"></script>
+<script src="/js/index.js "></script>
 <!-- Page Clip Form Submission -->
-<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+<script src="https://s.pageclip.co/v1/pageclip.js " charset="utf-8 "></script>
 
 <!-- Bootstrap  -->
 <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
+        crossorigin="anonymous "
 ></script>
 <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
+        crossorigin="anonymous "
 ></script>
 <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
+        crossorigin="anonymous "
 ></script>
 
 <!-- Cloudflare Web Analytics -->
 <script
         defer
-        src="https://static.cloudflareinsights.com/beacon.min.js"
-        data-cf-beacon='{"token": "7c6a28636ca84f3b9c71d413ca7fd007"}'
+        src="https://static.cloudflareinsights.com/beacon.min.js "
+        data-cf-beacon='{"token ": "7c6a28636ca84f3b9c71d413ca7fd007 "}'
 ></script>
 <!-- End Cloudflare Web Analytics -->
 
