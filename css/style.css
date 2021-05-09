@@ -1,0 +1,28 @@
+body {
+  color: #1e212b;
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.navbar-container {
+  color: #c3d2d5;
+  background-color: #1e212b;
+  font-size: 1.2rem;
+}
+
+.navbar-container .nav-link {
+  color: #c3d2d5;
+}
+
+.navbar-container a.navbar-brand {
+  color: #fd3e67;
+  font-size: 13rem;
+}
+
+.navbar-container a.active {
+  color: #ffe74c;
+}
+/*# sourceMappingURL=style.css.map */

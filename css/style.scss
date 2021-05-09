@@ -1,0 +1,37 @@
+:root {
+  $site-red: #FD3E67;
+  $site-blue: #645DD7;
+  $site-bg-grey: #C3D2D5;
+  $site-black: #1E212B;
+  $site-yellow: #FFE74C;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  color: $site-black;
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar-container {
+  color: $site-grey;
+  background-color: $site-black;
+  font-size: 12rem;
+
+  .nav-link {
+    color: $site-grey;
+    font-size: 12em;
+  }
+
+  a.navbar-brand {
+    color: $site-red;
+    font-size: 13rem
+  }
+
+  a.active {
+    color: $site-yellow;
+  }
+}
