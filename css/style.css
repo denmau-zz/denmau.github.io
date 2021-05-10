@@ -84,6 +84,7 @@ main .hero-area-container .hero-area {
 main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
+  font-family: Comfortaa, serif;
 }
 main .hero-area-container .hero-area .hero-text {
   color: #ffe74c;
