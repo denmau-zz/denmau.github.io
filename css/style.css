@@ -4,7 +4,7 @@
 /* Font - Ubuntu */
 @import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 /* Font - Poppins */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap");
 /* End Import Fonts */
 :root {
   scroll-behavior: smooth;
@@ -17,7 +17,7 @@
 
 body {
   color: #1e212b;
-  font-family: "poppins", serif;
+  font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -172,7 +172,7 @@ main .hero-area-container .hero-area .about-me-summary {
   text-transform: uppercase;
 }
 #skills .ml-skills-container .card .card-body .muted-text {
-  font-family: Poppins, serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   font-weight: lighter;
   color: grey;
@@ -186,7 +186,7 @@ main .hero-area-container .hero-area .about-me-summary {
   align-items: flex-end;
 }
 #skills .more-skills {
-  font-family: Poppins, serif;
+  font-family: "Poppins", sans-serif;
   font-size: 0.7rem;
   font-weight: lighter;
 }
