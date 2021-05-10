@@ -19,6 +19,8 @@
 - CloudFlare - for caching & page visit analytics
 - pageclip - server for HTML forms
 
+I am using DeepSource to fix bug risks, anti-patterns, performance issues, and security flaws.
+
 There is still more to come, including even more projects.
 
 You can reach me at
