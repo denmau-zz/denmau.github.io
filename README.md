@@ -19,7 +19,7 @@
 - CloudFlare - for caching & page visit analytics
 - pageclip - server for HTML forms
 
-There is still more to come, including projects.
+There is still more to come, including even more projects.
 
 You can reach me at
 <br />
