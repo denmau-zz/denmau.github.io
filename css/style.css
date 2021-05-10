@@ -2,6 +2,16 @@
   scroll-behavior: smooth;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 0;
+  padding: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -15,7 +25,7 @@ a {
 }
 
 .color-blue {
-  color: #fd3e67;
+  color: #645dd7;
 }
 
 .color-white {
@@ -98,6 +108,7 @@ main .hero-area-container .hero-area .about-me-summary {
   color: #fd3e67;
   font-family: Comfortaa, serif;
   font-size: 25px;
+  font-weight: bold;
 }
 
 .section-sub-title {
@@ -177,6 +188,70 @@ main .hero-area-container .hero-area .about-me-summary {
   color: #fd3e67;
   font-family: Comfortaa, serif;
   font-weight: bold;
+}
+
+#contact .form-container {
+  border: 1px solid #ffe74c;
+  border-radius: 21px;
+  padding: 2rem;
+  width: 100%;
+  margin-bottom: 2rem;
+}
+#contact .form-container ::placeholder {
+  color: #645dd7;
+}
+#contact .form-container input, #contact .form-container textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 2px solid #645dd7;
+}
+#contact .form-container textarea {
+  border-bottom: 2px solid #645dd7;
+}
+#contact .form-container button[type=submit] {
+  background-color: #645dd7;
+  border-color: #645dd7;
+  width: 70%;
+  margin-top: 2rem;
+}
+
+.socials-container {
+  display: flex;
+}
+.socials-container .col {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.socials-container .col .social-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 33px;
+  padding: 8px;
+  width: 28px;
+  height: 25px;
+  margin-bottom: 2rem;
+}
+.socials-container .col .social-container img {
+  width: 15px;
+  height: 11px;
+}
+
+.text-small {
+  font-size: 0.7rem;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  width: 100%;
+  font-family: Ubuntu, serif;
+  font-size: 0.7rem;
 }
 
 /*# sourceMappingURL=style.css.map */

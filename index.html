@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
 
 <head>
     <meta charset="UTF-8"/>
@@ -35,7 +35,7 @@
     <title>Dennis Kamau | Full Stack ML Engineer</title>
 
     <!-- Restrict protocol to https-->
-    <script type="text/javascript">
+    <script>
         const host = "denmau.me";
         if (host === window.location.host && window.location.protocol !== "https:")
             window.location.protocol = "https";
@@ -213,233 +213,240 @@
 </section>
 
 <!-- Projects -->
-<section id="projects">
-    <div class="container-fluid background-black border border-danger">
-        <div class="container">
-            <h2 class="section-title">Projects</h2>
-            <div class="card-deck">
-                <div class="card mb-2">
-                    <div class="row text-center">
-                        <div class="col">
-                            <img src="img/FoodFitScreenshot1.png" alt="foodfit app" height="400" width="200">
-                        </div>
-                        <div class="col space-equally-vertically">
-                            <div><p class="card-title">Food Fit</p></div>
-                            <div><img src="img/java.png" alt="java" height="51" width="37"/></div>
-                            <div><img src="img/firebase.png" alt="firebase" height="55" width="40"/></div>
-                            <div><a href="https://www.github.com/denmau/foodfit" class="btn btn-outline-primary">View on
-                                GitHub</a></div>
-                        </div>
+<section id="projects" class="background-black">
+    <div class="container">
+        <h2 class="section-title">Projects</h2>
+        <div class="card-deck">
+            <div class="card mb-2">
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="img/FoodFitScreenshot1.png" alt="foodfit app" height="400" width="200">
                     </div>
-                    <div class="card-body">
-                        <p class="card-text">Food Fit is a Java <span class="color-red">Android App</span> that gives
-                            you
-                            access to 5000+<span class="color-red">*</span> recipes, each
-                            with nutritional information.
-                            Users can search for or view random recipes.
-                            Recipes are fetched from an <span class="color-red">API</span>.
-                            The app uses <span class="color-red">Firebase</span> for Authentication: login, signup and
-                            password reset.</p>
-                        <p class="card-text"><small class="text-muted"><span class="color-red">*</span> Although the App
-                            has capacity to display 5000+
-                            recipes, I am using a free plan of the API with a capped number of recipe-requests per
-                            month.</small></p>
+                    <div class="col space-equally-vertically">
+                        <div><p class="card-title">Food Fit</p></div>
+                        <div><img src="img/java.png" alt="java" height="51" width="37"/></div>
+                        <div><img src="img/firebase.png" alt="firebase" height="55" width="40"/></div>
+                        <div><a href="https://www.github.com/denmau/foodfit" class="btn btn-outline-primary">View on
+                            GitHub</a></div>
                     </div>
                 </div>
-                <div class="card mb-2">
-                    <div class="row text-center">
-                        <div class="col">
-                            <img src="img/denmaublog.png" alt="foodfit app" height="400" width="200">
-                        </div>
-                        <div class="col space-equally-vertically">
-                            <div><p class="card-title">Denmau Blog</p></div>
-                            <div><img src="img/python.png" alt="java" height="66" width="67"/></div>
-                            <div><img src="img/django.png" alt="firebase" height="75" width="58"/></div>
-                            <div><a href="http://denmaublog.herokuapp.com/" class="btn btn-outline-primary">View on
-                                Heroku</a></div>
-                            <div><a href="https://github.com/denmau/100-days-of-code/tree/main/day-2-django-blog"
-                                    class="btn btn-outline-secondary">View
-                                on
-                                GitHub</a></div>
-                        </div>
+                <div class="card-body">
+                    <p class="card-text">Food Fit is a Java <span class="color-red">Android App</span> that gives
+                        you
+                        access to 5000+<span class="color-red">*</span> recipes, each
+                        with nutritional information.
+                        Users can search for or view random recipes.
+                        Recipes are fetched from an <span class="color-red">API</span>.
+                        The app uses <span class="color-red">Firebase</span> for Authentication: login, signup and
+                        password reset.</p>
+                    <p class="card-text"><small class="text-muted"><span class="color-red">*</span> Although the App
+                        has capacity to display 5000+
+                        recipes, I am using a free plan of the API with a capped number of recipe-requests per
+                        month.</small></p>
+                </div>
+            </div>
+            <div class="card mb-2">
+                <div class="row text-center">
+                    <div class="col">
+                        <img src="img/denmaublog.png" alt="foodfit app" height="400" width="200"
+                             class="border border-success">
                     </div>
-                    <div class="card-body">
-                        <p class="card-text">This is <span class="color-red">python Django blog</span> that allows <span
-                                class="color-red">authenticated</span> users to write and
-                            post blog articles. Authors are allowed to create, read, update or even delete their
-                            articles (<span class="color-red">CRUD</span>).
-                            This web application allows any logged in user to leave a comment for each article.
-                            There is also a reset password feature for users who forget their passwords.
-                            Styling is done by <span class="color-red">bootstrap</span>.
-                        </p>
-                        <p class="card-text">The admin has rights to edit or delete any article or comment.</p>
-                        <p class="card-text"><small class="text-muted">The App uses <span
-                                class="color-red">SQLite</span> Database for the development
-                            version, and <span class="color-red">PostgreSQL</span> for the deployed version.
-                        </small></p>
+                    <div class="col space-equally-vertically">
+                        <div><p class="card-title">Denmau Blog</p></div>
+                        <div><img src="img/python.png" alt="java" height="66" width="67"/></div>
+                        <div><img src="img/django.png" alt="firebase" height="75" width="58"/></div>
+                        <div><a href="http://denmaublog.herokuapp.com/" class="btn btn-outline-primary">View on
+                            Heroku</a></div>
+                        <div><a href="https://github.com/denmau/100-days-of-code/tree/main/day-2-django-blog"
+                                class="btn btn-outline-secondary">View
+                            on
+                            GitHub</a></div>
                     </div>
                 </div>
-
-                <div class="card mb-2">
-                    <div class="card-body">
-                        <p class="card-text">This GitHub repo contains most of my Machine Learning mini-projects, and
-                            those I
-                            encountered while taking the
-                            <a href="https://www.coursera.org/account/accomplishments/professional-cert/QP3343SDDDGG?utm_product=prof"
-                               target="_blank">DeepLearning.ai Tensorflow Professional Certificate</a>.</p>
-                        <p class="card-text">Mini-Projects here include:</p>
-                        <ul>
-                            <li>Computer Vision - Convolutional Neural Networks</li>
-                            <li>Computer Vision - Detecting Horses vs Humans</li>
-                            <li>Natural Language Processing - predicting a Shakes Pear article</li>
-                            <li>Time Series & Predictions - Working with stock data</li>
-                        </ul>
-                        <a href="https://github.com/denmau/tensorflow-practice" class="btn btn-primary">View on
-                            GiHub</a>
-                    </div>
+                <div class="card-body">
+                    <p class="card-text">This is <span class="color-red">python Django blog</span> that allows <span
+                            class="color-red">authenticated</span> users to write and
+                        post blog articles. Authors are allowed to create, read, update or even delete their
+                        articles (<span class="color-red">CRUD</span>).
+                        This web application allows any logged in user to leave a comment for each article.
+                        There is also a reset password feature for users who forget their passwords.
+                        Styling is done by <span class="color-red">bootstrap</span>.
+                    </p>
+                    <p class="card-text">The admin has rights to edit or delete any article or comment.</p>
+                    <p class="card-text"><small class="text-muted">The App uses <span
+                            class="color-red">SQLite</span> Database for the development
+                        version, and <span class="color-red">PostgreSQL</span> for the deployed version.
+                    </small></p>
                 </div>
-
+            </div>
+            <div class="card mb-2">
+                <div class="card-body">
+                    <p class="card-text">This GitHub repo contains most of my Machine Learning mini-projects, and
+                        those I
+                        encountered while taking the
+                        <a href="https://www.coursera.org/account/accomplishments/professional-cert/QP3343SDDDGG?utm_product=prof"
+                           target="_blank">DeepLearning.ai Tensorflow Professional Certificate</a>.</p>
+                    <p class="card-text">Mini-Projects here include:</p>
+                    <ul>
+                        <li>Computer Vision - Convolutional Neural Networks</li>
+                        <li>Computer Vision - Detecting Horses vs Humans</li>
+                        <li>Natural Language Processing - predicting a Shakes Pear article</li>
+                        <li>Time Series & Predictions - Working with stock data</li>
+                    </ul>
+                    <a href="https://github.com/denmau/tensorflow-practice" class="btn btn-primary">View on
+                        GiHub</a>
+                </div>
             </div>
         </div>
     </div>
+
 </section>
 
 <!-- Contact Me Section start -->
-<section id="contactMe">
+<section id="contact" class="background-grey">
     <div class="container">
-        <h2>Contact Me</h2>
+        <h2 class="section-title">Contact Me</h2>
 
         <!-- Contact Form Start -->
-        <form action="https://send.pageclip.co/e76zC4PmHNLeDcDrHMbqag1y9aLlyG6O/leave-message"
-              class="pageclip-form border border-success px-2" method="post">
-            <div class="form-container">
-                <div class="form-group row">
+        <div class="form-container">
+            <form action="https://send.pageclip.co/e76zC4PmHNLeDcDrHMbqag1y9aLlyG6O/leave-message"
+                  class="pageclip-form px-2" method="post">
+                <div class="row">
                     <label for="your_name" class="form-label">Name</label
                     >
                     <input
                             required
                             type="text"
                             class="form-control"
-                            name="email"
+                            name="name"
                             id="your_name"
-                            placeholder="you@example.com"
+                            placeholder="Your Name"
                     />
                 </div>
-                <div class="form-group row">
+                <div class="row">
                     <label for="your_email" class="form-label">Email</label>
-                    <input required type="email" class="form-control" name="email" id="your_email"
-                           placeholder="Email Address"/>
+                    <input
+                            required
+                            type="email"
+                            class="form-control"
+                            name="email"
+                            id="your_email"
+                            placeholder="Email Address"
+                    />
                 </div>
-                <div class="form-group row">
+                <div class="row">
                     <label for="your_message" class="form-label"
                     >Message</label>
                     <textarea
                             required
                             name="message"
-                            class="form-control "
+                            class="form-control"
                             id="your_message"
                             placeholder="Message"
+                            rows="7"
                     ></textarea>
                 </div>
-                <div class="row ">
+                <div class="row justify-content-center">
                     <button
                             type="submit"
-                            class="pageclip-form__submit btn btn-primary btn-form-submit rounded "
+                            class="pageclip-form__submit btn btn-primary btn-form-submit rounded"
                     >
                         <span>Send Message</span>
                     </button>
                 </div>
-            </div>
-        </form>
+            </form>
+        </div>
         <!-- Contact Form End -->
 
-        <div class="row ">
-            <a href="mailto:dmkamau475@gmail.com " class="col social-container rounded ">
-                <div>
-                    <img src="img/iconmonstr-email.svg " alt="twitter " height="15 ">
-                    dmkamau475@gmail.com
+        <div class="row socials-container">
+
+            <div class="col">
+                <div class="social-container">
+                    <img src="img/iconmonstr-email.svg" alt="">
                 </div>
-            </a>
-            <a href="# " class="col social-container rounded ">
-                <div>
-                    <img src="img/iconmonstr-whatsapp.svg " alt="twitter " height="15 ">
-                    +254759360020
+                <div class="color-blue text-small">dmkamau038@gmail.com</div>
+            </div>
+            <div class="col">
+                <div class="social-container">
+                    <img src="img/iconmonstr-whatsapp.svg" alt="email">
                 </div>
-            </a>
+                <div class="color-blue text-small">+254759360020</div>
+            </div>
+
         </div>
+
     </div>
 </section>
 <!-- Contact Me Section end -->
 
 <!--Footer Start-->
-<section>
-    <div class="container-fluid ">
-        <div class="container ">
-            <p>All rights reserved | Copyright © 2021</p>
-            <p>Naivasha, Kenya</p>
-            <p>icons by Flaticon & iconmonstr, hero image from undraw</p>
+<div class="fadegreytoblack"></div>
+<footer class="background-black">
+    <div class="container-fluid">
+        <div class="container">
+            <p class="text-small">All rights reserved | Copyright © 2021</p>
+            <p class="text-small">NAIVASHA, KENYA</p>
+            <p class="text-small">icons by Flaticon & iconmonstr, hero image from undraw</p>
 
-            <div class="row ">
+            <div class="row socials-container w-75 mx-auto">
 
-                <a href="https://www.twitter.com/devdenmau " class="col social-container rounded ">
-                    <div>
-                        <img src="img/iconmonstr-twitter.svg " alt="twitter " height="15 ">
+                <div class="col" style="cursor: pointer;"
+                     onclick="window.location='https://www.twitter.com/devdenmau';">
+                    <div class="social-container">
+                        <img src="img/iconmonstr-twitter.svg" alt="twitter" height="15">
                     </div>
-                </a>
+                </div>
 
-                <a href="https://www.linkedin.com/in/denmau " class="col social-container rounded ">
-                    <div
-                    >
-                        <img src="img/iconmonstr-linkedin.svg " alt="linkedin " height="15 ">
+                <div class="col" style="cursor: pointer;"
+                     onclick="window.location='https://www.linkedin.com/in/denmau';">
+                    <div class="social-container">
+                        <img src="img/iconmonstr-linkedin.svg" alt="linkedin" height="15">
                     </div>
-                </a>
+                </div>
 
-                <a href="https://www.github.com/denmau " class="col social-container rounded ">
-                    <div>
-                        <img src="img/iconmonstr-github.svg " alt="github " height="15 ">
+                <div class="col" style="cursor: pointer;" onclick="window.location='https://www.github.com/denmau';">
+                    <div class="social-container">
+                        <img src="img/iconmonstr-github.svg" alt="github" height="15">
                     </div>
-                </a>
+                </div>
 
-                <a href="mailto:dmkamau475@gmail.com " class="col social-container rounded ">
-                    <div>
-                        <img src="img/iconmonstr-email.svg " alt="email " height="15 ">
+                <div class="col" style="cursor: pointer;" onclick="window.location='mailto:dmkamau475@gmail.com';
+    ">
+                    <div class="social-container">
+                        <img src="img/iconmonstr-email.svg" alt="email" height="15">
                     </div>
-                </a>
-            </div>
-        </div>
-    </div>
-</section>
-<!--Footer End-->
+
+</footer><!--Footer End-->
 
 
 </body>
 <!-- Custom JS FIle  -->
-<script src="/js/index.js "></script>
+<script src="/js/index.js"></script>
 <!-- Page Clip Form Submission -->
-<script src="https://s.pageclip.co/v1/pageclip.js " charset="utf-8 "></script>
+<script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 <!-- Bootstrap  -->
 <script
-        src="https://code.jquery.com/jquery-3.3.1.slim.min.js "
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo "
-        crossorigin="anonymous "
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"
 ></script>
 <script
-        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js "
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1 "
-        crossorigin="anonymous "
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"
 ></script>
 <script
-        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js "
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM "
-        crossorigin="anonymous "
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"
 ></script>
 
 <!-- Cloudflare Web Analytics -->
 <script
         defer
-        src="https://static.cloudflareinsights.com/beacon.min.js "
-        data-cf-beacon='{"token ": "7c6a28636ca84f3b9c71d413ca7fd007 "}'
+        src="https://static.cloudflareinsights.com/beacon.min.js"
+        data-cf-beacon='{"token":"7c6a28636ca84f3b9c71d413ca7fd007"}'
 ></script>
 <!-- End Cloudflare Web Analytics -->
 
