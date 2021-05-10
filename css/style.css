@@ -65,8 +65,23 @@ a {
   background-color: #c3d2d5;
 }
 
+nav {
+  justify-content: space-between;
+}
 nav .branding {
   color: #fd3e67;
+}
+
+a {
+  color: #fd3e67;
+}
+
+a.btn {
+  color: unset;
+}
+
+a:visited {
+  color: #645dd7;
 }
 
 main .hero-area-container {
@@ -134,12 +149,22 @@ main .hero-area-container .hero-area .about-me-summary {
 }
 #skills .cards-container .card {
   height: 94px;
-  width: 87px;
+  width: 100%;
   display: flex;
+  justify-content: center;
+  align-content: center;
   padding: 0;
   border: 0.5px solid #ffe74c;
+  margin-bottom: 1rem;
 }
-#skills .cards-container .card img {
+#skills .cards-container .card .card-body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+#skills .cards-container .card .card-body img {
   max-height: 68px;
   max-width: 60px;
 }
@@ -175,8 +200,8 @@ main .hero-area-container .hero-area .about-me-summary {
 #skills .ml-skills-container .card .card-body .muted-text {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
-  font-weight: lighter;
-  color: grey;
+  color: #1e212b;
+  font-weight: normal;
   text-transform: none;
 }
 #skills .ml-skills-container .card:nth-child(even) {
@@ -189,13 +214,18 @@ main .hero-area-container .hero-area .about-me-summary {
 #skills .more-skills {
   font-family: "Poppins", sans-serif;
   font-size: 0.7rem;
-  font-weight: lighter;
+  color: #1e212b;
+}
+
+section#projects {
+  border-color: #1e212b;
 }
 
 #projects .space-equally-vertically {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  align-items: flex-start;
 }
 #projects .card-title {
   color: #fd3e67;
@@ -241,8 +271,8 @@ main .hero-area-container .hero-area .about-me-summary {
 }
 .socials-container .col {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: baseline;
 }
 .socials-container .col .social-container {
   display: flex;

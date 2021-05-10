@@ -78,10 +78,26 @@ a {
 }
 
 nav {
+  justify-content: space-between;
+
   .branding {
     color: $site-red;
   }
 }
+
+a {
+  color: $site-red;
+}
+
+//optimize  for color blind users
+a.btn {
+  color: unset;
+}
+
+a:visited {
+  color: $site-blue;
+}
+
 
 main {
   .hero-area-container {
@@ -161,14 +177,26 @@ main {
 
     .card {
       height: 94px;
-      width: 87px;
+      //width: 87px;
+      width: 100%;
       display: flex;
+      justify-content: center;
+      align-content: center;
       padding: 0;
       border: 0.5px solid $site-yellow;
+      margin-bottom: 1rem;
 
-      img {
-        max-height: 68px;
-        max-width: 60px;
+      .card-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 100%;
+
+        img {
+          max-height: 68px;
+          max-width: 60px;
+        }
       }
     }
   }
@@ -207,8 +235,8 @@ main {
         .muted-text {
           font-family: 'Poppins', sans-serif;
           font-size: .8rem;
-          font-weight: lighter;
-          color: grey;
+          color: $site-black;
+          font-weight: normal;
           text-transform: none;
         }
       }
@@ -229,8 +257,12 @@ main {
   .more-skills {
     font-family: 'Poppins', sans-serif;
     font-size: .7rem;
-    font-weight: lighter;
+    color: $site-black;
   }
+}
+
+section#projects {
+  border-color: $site-black;
 }
 
 #projects {
@@ -238,6 +270,7 @@ main {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    align-items: flex-start
   }
 
   // overriding bootstrap class 'card-title'
@@ -294,9 +327,8 @@ main {
 
   .col {
     display: flex;
-    align-items: center;
     justify-content: center;
-
+    align-items: baseline;
 
     .social-container {
       display: flex;
@@ -308,7 +340,6 @@ main {
       width: 28px;
       height: 25px;
       margin-bottom: 2rem;
-
 
       img {
         width: 15px;
