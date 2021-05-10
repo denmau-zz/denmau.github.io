@@ -155,10 +155,10 @@ main .hero-area-container .hero-area .about-me-summary {
   color: grey;
   text-transform: none;
 }
-#skills .ml-skills-container .card:nth-child(odd) {
+#skills .ml-skills-container .card:nth-child(even) {
   align-self: flex-end;
 }
-#skills .ml-skills-container .card:nth-child(odd) .card-body {
+#skills .ml-skills-container .card:nth-child(even) .card-body {
   text-align: right;
   align-items: flex-end;
 }
@@ -166,6 +166,17 @@ main .hero-area-container .hero-area .about-me-summary {
   font-family: Poppins, serif;
   font-size: 0.7rem;
   font-weight: lighter;
+}
+
+#projects .space-equally-vertically {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#projects .card-title {
+  color: #fd3e67;
+  font-family: Comfortaa, serif;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=style.css.map */
