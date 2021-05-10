@@ -1,4 +1,4 @@
-// alert("Hello, the development of this site is in progress. It is currently optimised for mobile. Thank you :-)");
+alert("Hello, the development of this site is in progress. It is currently optimised for mobile. Thank you :-)");
 
 // Collect all the inputs
 const inputs = document.querySelectorAll("input, select, textarea");
