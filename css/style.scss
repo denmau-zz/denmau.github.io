@@ -94,12 +94,12 @@ main {
       min-height: inherit;
       justify-content: space-around;
       align-items: flex-start;
-      border: $site-yellow 2px solid;
+      //border: $site-yellow 2px solid;
 
       .greetings {
         color: $white;
         text-transform: uppercase;
-        border: white 1px solid;
+        //border: white 1px solid;
       }
 
       .hero-text {
@@ -108,13 +108,13 @@ main {
         font-family: Comfortaa, sans-serif;
         font-weight: lighter;
         font-size: 21px;
-        border: white 1px solid;
+        //border: white 1px solid;
       }
 
       .about-me-summary {
         font-family: Ubuntu, serif;
         font-size: 12px;
-        border: white 1px solid;
+        //border: white 1px solid;
       }
     }
   }

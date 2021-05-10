@@ -80,12 +80,10 @@ main .hero-area-container .hero-area {
   min-height: inherit;
   justify-content: space-around;
   align-items: flex-start;
-  border: #ffe74c 2px solid;
 }
 main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
-  border: white 1px solid;
 }
 main .hero-area-container .hero-area .hero-text {
   color: #ffe74c;
@@ -93,12 +91,10 @@ main .hero-area-container .hero-area .hero-text {
   font-family: Comfortaa, sans-serif;
   font-weight: lighter;
   font-size: 21px;
-  border: white 1px solid;
 }
 main .hero-area-container .hero-area .about-me-summary {
   font-family: Ubuntu, serif;
   font-size: 12px;
-  border: white 1px solid;
 }
 
 .fadeblacktogrey {
