@@ -7,14 +7,40 @@ $site-bg-grey: #c3d2d5;
 $site-black: #1e212b;
 $site-yellow: #ffe74c;
 $white: white;
+
+/* Start Import Fonts */
+/* Font - Comfortaa */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+/* Font - Ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* End Import Fonts */
+
 :root {
   scroll-behavior: smooth;
-
 }
 
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  color: $site-black;
+  font-family: "poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: $site-bg-grey;
+  animation-duration: 2s;
+}
+
+/* Target blank icon */
+/* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
+a[target="_blank"]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
 }
 
 section {
@@ -47,15 +73,6 @@ a {
 }
 
 .background-grey {
-  background-color: $site-bg-grey;
-}
-
-body {
-  color: $site-black;
-  font-family: "poppins", serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background-color: $site-bg-grey;
 }
 
@@ -241,13 +258,19 @@ main {
       color: $site-blue;
     }
 
-    input, textarea {
+    input, select, textarea {
       width: 100%;
       padding: 12px 20px;
       margin-bottom: 8px;
       box-sizing: border-box;
       border: none;
       border-bottom: 2px solid $site-blue;
+
+      /* Form Validation  */
+      /* This class is added by JS upon invalid input */
+      .invalid {
+        border-color: red;
+      }
     }
 
     textarea {

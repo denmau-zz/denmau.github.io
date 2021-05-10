@@ -1,3 +1,11 @@
+/* Start Import Fonts */
+/* Font - Comfortaa */
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
+/* Font - Ubuntu */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* Font - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+/* End Import Fonts */
 :root {
   scroll-behavior: smooth;
 }
@@ -5,6 +13,23 @@
 * {
   margin: 0;
   padding: 0;
+}
+
+body {
+  color: #1e212b;
+  font-family: "poppins", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #c3d2d5;
+  animation-duration: 2s;
+}
+
+/* Target blank icon */
+/* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
+a[target=_blank]:after {
+  content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
+  margin: 0 3px 0 5px;
 }
 
 section {
@@ -37,15 +62,6 @@ a {
 }
 
 .background-grey {
-  background-color: #c3d2d5;
-}
-
-body {
-  color: #1e212b;
-  font-family: "poppins", serif;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
   background-color: #c3d2d5;
 }
 
@@ -200,13 +216,18 @@ main .hero-area-container .hero-area .about-me-summary {
 #contact .form-container ::placeholder {
   color: #645dd7;
 }
-#contact .form-container input, #contact .form-container textarea {
+#contact .form-container input, #contact .form-container select, #contact .form-container textarea {
   width: 100%;
   padding: 12px 20px;
   margin-bottom: 8px;
   box-sizing: border-box;
   border: none;
   border-bottom: 2px solid #645dd7;
+  /* Form Validation  */
+  /* This class is added by JS upon invalid input */
+}
+#contact .form-container input .invalid, #contact .form-container select .invalid, #contact .form-container textarea .invalid {
+  border-color: red;
 }
 #contact .form-container textarea {
   border-bottom: 2px solid #645dd7;
