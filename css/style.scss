@@ -12,8 +12,6 @@ $white: white;
 
 /* Font - Comfortaa */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
-/* Font - Ubuntu */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 /* Font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap");
 /* End Import Fonts */
@@ -117,7 +115,7 @@ main {
       .greetings {
         color: $white;
         text-transform: uppercase;
-        font-family: Ubuntu, serif;
+        font-family: Poppins, serif;
         font-size: 1rem;
         //border: white 1px solid;
       }
@@ -329,23 +327,24 @@ section#projects {
     display: flex;
     justify-content: center;
     align-items: baseline;
+  }
 
-    .social-container {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      background-color: white;
-      border-radius: 33px;
-      padding: 8px;
-      width: 28px;
-      height: 25px;
-      margin-bottom: 2rem;
+  .social-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 33px;
+    padding: 8px;
+    width: 28px;
+    height: 25px;
+    margin-bottom: 2rem;
 
-      img {
-        width: 15px;
-        height: 11px;
-      }
+    img {
+      width: 15px;
+      height: 11px;
     }
+
   }
 }
 
@@ -354,12 +353,14 @@ section#projects {
 }
 
 footer {
-  p {
-    color: $white;
-    text-align: center;
+  font-family: Poppins, serif;
+
+  .socials-container {
+    display: flex;
+    justify-content: space-around;
     width: 100%;
-    font-family: Ubuntu, serif;
-    font-size: 0.7rem;
+    // height of socials-container is equal to height of social-container
+    height: 25px;
   }
 }
 
@@ -414,6 +415,14 @@ footer {
       background-position: right;
       background-repeat: no-repeat;
       background-size: auto 60vh;
+    }
+  }
+
+  footer {
+    display: flex;
+
+    p {
+      width: fit-content;
     }
   }
 }

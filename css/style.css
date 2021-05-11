@@ -1,8 +1,6 @@
 /* Start Import Fonts */
 /* Font - Comfortaa */
 @import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap");
-/* Font - Ubuntu */
-@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
 /* Font - Poppins */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;700;800&display=swap");
 /* End Import Fonts */
@@ -101,7 +99,7 @@ main .hero-area-container .hero-area {
 main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
-  font-family: Ubuntu, serif;
+  font-family: Poppins, serif;
   font-size: 1rem;
 }
 main .hero-area-container .hero-area .hero-text {
@@ -268,7 +266,7 @@ section#projects {
   justify-content: center;
   align-items: baseline;
 }
-.socials-container .col .social-container {
+.socials-container .social-container {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -279,7 +277,7 @@ section#projects {
   height: 25px;
   margin-bottom: 2rem;
 }
-.socials-container .col .social-container img {
+.socials-container .social-container img {
   width: 15px;
   height: 11px;
 }
@@ -288,12 +286,14 @@ section#projects {
   font-size: 0.9rem;
 }
 
-footer p {
-  color: white;
-  text-align: center;
+footer {
+  font-family: Poppins, serif;
+}
+footer .socials-container {
+  display: flex;
+  justify-content: space-around;
   width: 100%;
-  font-family: Ubuntu, serif;
-  font-size: 0.7rem;
+  height: 25px;
 }
 
 @media only screen and (min-width: 768px) {
@@ -335,6 +335,13 @@ footer p {
     background-position: right;
     background-repeat: no-repeat;
     background-size: auto 60vh;
+  }
+
+  footer {
+    display: flex;
+  }
+  footer p {
+    width: fit-content;
   }
 }
 @media only screen and (min-width: 1200px) {
