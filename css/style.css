@@ -311,7 +311,7 @@ footer p {
   }
 
   .greetings {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   .about-me-summary {
@@ -322,6 +322,19 @@ footer p {
 @media only screen and (min-width: 992px) {
   .hero-area-container {
     max-width: 960px;
+  }
+
+  #contact .form-container {
+    width: 50%;
+  }
+  #contact .socials-container {
+    width: 50%;
+  }
+  #contact .container:first-child {
+    background-image: url("../img/undraw_delivery_address_03n0.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: auto 60vh;
   }
 }
 @media only screen and (min-width: 1200px) {
