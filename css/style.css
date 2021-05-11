@@ -101,7 +101,7 @@ main .hero-area-container .hero-area {
 main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
-  font-family: Comfortaa, serif;
+  font-family: Ubuntu, serif;
   font-size: 1rem;
 }
 main .hero-area-container .hero-area .hero-text {
@@ -109,10 +109,10 @@ main .hero-area-container .hero-area .hero-text {
   text-transform: uppercase;
   font-family: Comfortaa, sans-serif;
   font-weight: normal;
-  font-size: 21px;
+  font-size: 3rem;
 }
 main .hero-area-container .hero-area .about-me-summary {
-  font-family: Ubuntu, serif;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
 }
 
@@ -307,7 +307,11 @@ footer p {
 
   .hero-text {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 4rem;
+  }
+
+  .greetings {
+    font-size: 1.5rem;
   }
 
   .about-me-summary {

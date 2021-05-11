@@ -117,7 +117,7 @@ main {
       .greetings {
         color: $white;
         text-transform: uppercase;
-        font-family: Comfortaa, serif;
+        font-family: Ubuntu, serif;
         font-size: 1rem;
         //border: white 1px solid;
       }
@@ -127,12 +127,12 @@ main {
         text-transform: uppercase;
         font-family: Comfortaa, sans-serif;
         font-weight: normal;
-        font-size: 21px;
+        font-size: 3rem;
         //border: white 1px solid;
       }
 
       .about-me-summary {
-        font-family: Ubuntu, serif;
+        font-family: Poppins, sans-serif;
         font-size: 15px;
         //border: white 1px solid;
       }
@@ -191,6 +191,7 @@ main {
     .card {
       height: 94px;
       width: 100%;
+
       display: flex;
       justify-content: center;
       align-content: center;
@@ -214,6 +215,7 @@ main {
   }
 
   .ml-skills-container {
+
     .card {
       height: 94px;
       border: $site-yellow 1px solid;
@@ -257,7 +259,7 @@ main {
 
 section#projects {
   // for some reason which I haven't identified yet, section is overlapped when I remove border
-  // and so setting the border to a very thin, is a temporary work around for this
+  // and so setting the border to a very thin (.1px), is a temporary work around for this
   border: .1px solid $site-black;
 }
 
@@ -379,7 +381,11 @@ footer {
 
   .hero-text {
     font-weight: bold;
-    font-size: 30px;
+    font-size: 4rem;
+  }
+
+  .greetings {
+    font-size: 1.5rem;
   }
 
   .about-me-summary {
