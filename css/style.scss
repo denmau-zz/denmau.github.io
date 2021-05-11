@@ -118,6 +118,7 @@ main {
         color: $white;
         text-transform: uppercase;
         font-family: Comfortaa, serif;
+        font-size: 1rem;
         //border: white 1px solid;
       }
 
@@ -132,7 +133,7 @@ main {
 
       .about-me-summary {
         font-family: Ubuntu, serif;
-        font-size: 12px;
+        font-size: 15px;
         //border: white 1px solid;
       }
     }
@@ -362,46 +363,46 @@ footer {
 
 // Responsive Medias
 
-// For Medium sized screen
+// For Medium screens
 @media only screen and (min-width: 768px) {
+
+  // add hero image
   .hero-area-container {
     background-image: url("../img/undraw_Maintenance_re_59vn.png");
     background-position: right;
     background-repeat: no-repeat;
+
+    // prevent hero image from being cropped
     background-size: auto 70vh;
     max-width: 720px;
   }
 
   .hero-text {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .about-me-summary {
-    font-size: 15px;
+    font-size: 18px;
     width: 65%;
-  }
-
-  #skills {
-
   }
 }
 
-// For Large sized screen
+// For Large screens
 @media only screen and (min-width: 992px) {
   .hero-area-container {
     max-width: 960px;
   }
 }
 
-// For Extra Large sized screen
+// For Extra Large screens
 @media only screen and (min-width: 1200px) {
   .hero-area-container {
     max-width: 1140px;
   }
 }
 
-// For Extra Extra Large sized screen
+// For Extra Extra Large screens
 @media only screen and (min-width: 1400px) {
   .hero-area-container {
     max-width: 1320px;

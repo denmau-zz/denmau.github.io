@@ -102,6 +102,7 @@ main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
   font-family: Comfortaa, serif;
+  font-size: 1rem;
 }
 main .hero-area-container .hero-area .hero-text {
   color: #ffe74c;
@@ -112,7 +113,7 @@ main .hero-area-container .hero-area .hero-text {
 }
 main .hero-area-container .hero-area .about-me-summary {
   font-family: Ubuntu, serif;
-  font-size: 12px;
+  font-size: 15px;
 }
 
 .fadeblacktogrey {
@@ -306,11 +307,11 @@ footer p {
 
   .hero-text {
     font-weight: bold;
-    font-size: 25px;
+    font-size: 30px;
   }
 
   .about-me-summary {
-    font-size: 15px;
+    font-size: 18px;
     width: 65%;
   }
 }
