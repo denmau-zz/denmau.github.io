@@ -334,7 +334,7 @@ footer .socials-container {
     background-image: url("../img/undraw_delivery_address_03n0.png");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: auto 60vh;
+    background-size: contain;
   }
 
   footer {
