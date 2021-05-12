@@ -26,7 +26,7 @@ body {
 
 /* Target blank icon */
 /* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
-a[target="_blank"]:after {
+a[target=_blank]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
   margin: 0 3px 0 5px;
 }
@@ -73,6 +73,10 @@ nav .branding {
 
 a {
   color: #fd3e67;
+}
+
+a.active {
+  color: #ffe74c;
 }
 
 a.btn {
@@ -251,7 +255,7 @@ section#projects {
 #contact .form-container textarea {
   border-bottom: 2px solid #645dd7;
 }
-#contact .form-container button[type="submit"] {
+#contact .form-container button[type=submit] {
   background-color: #645dd7;
   border-color: #645dd7;
   width: 70%;
@@ -331,7 +335,6 @@ footer .socials-container {
     width: 50%;
   }
   #contact .container:first-child {
-    background-image: url("../img/undraw_delivery_address_03n0.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: contain;
