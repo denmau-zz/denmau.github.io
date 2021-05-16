@@ -188,13 +188,24 @@ main {
 }
 
 .section-title {
-
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: $site-red;
   font-family: Comfortaa, serif;
   font-size: 25px;
   font-weight: bold;
+  position: relative;
+}
+.section-title:after {
+  content: "";
+  background-color: $site-red;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  height: 2px;
+  border-radius: 5px;
+  width: 70px;
+  border-bottom: 4px solid;
 }
 
 .section-sub-title {
