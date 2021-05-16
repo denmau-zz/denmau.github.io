@@ -1,4 +1,4 @@
-alert("Hello, I am Dennis Kamau, I am still developing this site. Feel free to explore. Thank you.");
+// alert("Hello, I am Dennis Kamau, I am still developing this site. Feel free to explore. Thank you.");
 
 // Collect all the inputs
 const inputs = document.querySelectorAll("input, select, textarea");

@@ -222,7 +222,7 @@ main {
       border: $site-yellow 1px solid;
       border-radius: 5px;
       display: flex;
-      margin-bottom: 1rem;
+      margin-bottom: 3rem;
 
       .card-body {
         height: inherit;
@@ -325,7 +325,7 @@ section#projects {
 
 .socials-container {
   display: flex;
-  //background-color: $site-bg-grey;
+  background-color: $site-bg-grey;
 
   .col {
     display: flex;
@@ -364,6 +364,7 @@ footer {
     width: 100%;
     // height of socials-container is equal to height of social-container
     height: 25px;
+    background-color: unset;
   }
 }
 
@@ -371,7 +372,7 @@ footer {
 
 // For Medium screens
 @media only screen and (min-width: 768px) {
-  // add hero image
+  // hero image as background-image
   .hero-area-container {
     background-image: url("../img/undraw_Maintenance_re_59vn.png");
     background-position: right;
@@ -413,11 +414,13 @@ footer {
     }
 
     .container:first-child {
-      //background-image: url("../img/undraw_delivery_address_03n0.png");
+      background-image: url("../img/undraw_delivery_address_03n0.png");
       background-position: right;
       background-repeat: no-repeat;
       //background-size: 50vw auto;
-      background-size: contain;
+      //background-size: contain;
+      background-size: 912px 680px;
+      //min-height: 680px;
     }
   }
 
