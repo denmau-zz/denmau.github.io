@@ -85,7 +85,7 @@ nav {
   }
 }
 
-//I am doing this to prevent overriding bootstrap colors to links with class btn
+//select all links except those that are buttons (to prevent overriding bootstrap colors)
 a :not(.btn) {
   color: $site-red;
 }
@@ -184,7 +184,8 @@ main {
     display: flex;
 
     .card {
-      height: 94px;
+      //height: 94px;
+      height: 150px;
       width: 100%;
 
       display: flex;
@@ -211,11 +212,12 @@ main {
 
   .ml-skills-container {
     .card {
-      height: 94px;
+      //height: 94px;
+      height: 120px;
       border: $site-yellow 1px solid;
       border-radius: 5px;
       display: flex;
-      margin-bottom: 3rem;
+      margin-bottom: 1rem;
 
       .card-body {
         height: inherit;
@@ -258,7 +260,9 @@ section#projects {
 }
 
 #projects {
-
+  .card {
+    margin-bottom: 3rem;
+  }
   .space-equally-vertically {
     display: flex;
     flex-direction: column;
@@ -346,7 +350,7 @@ section#projects {
 }
 
 .text-small {
-  font-size: .9rem;
+  font-size: 1rem;
 }
 
 footer {
