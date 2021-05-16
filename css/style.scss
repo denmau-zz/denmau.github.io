@@ -81,7 +81,6 @@ nav {
 
   a {
     color: $site-red;
-    font-size: 1rem;
   }
 }
 
@@ -128,7 +127,6 @@ main {
 
       .about-me-summary {
         font-family: Poppins, sans-serif;
-        font-size: 15px;
         //border: white 1px solid;
       }
     }
@@ -176,7 +174,6 @@ main {
 
 .section-sub-title {
   color: $site-blue;
-  font-size: 1rem;
 }
 
 #skills {
@@ -193,7 +190,7 @@ main {
       padding: 0;
       border: .5px solid $site-yellow;
       margin-bottom: 1rem;
-      border-radius: 2vh;
+      border-radius: 10px;
 
       .card-body {
         display: flex;
@@ -215,8 +212,7 @@ main {
       //height: 94px;
       height: 120px;
       border: $site-yellow 1px solid;
-      border-radius: 5px;
-      display: flex;
+      border-radius: 10px;
       margin-bottom: 1rem;
 
       .card-body {
@@ -230,7 +226,6 @@ main {
           margin: 0;
           color: $site-blue;
           font-family: Comfortaa, serif;
-          font-size: 14px;
           font-weight: bold;
           text-transform: uppercase;
         }
@@ -248,7 +243,6 @@ main {
 
   .more-skills {
     font-family: "Poppins", sans-serif;
-    font-size: 1rem;
     color: $site-black;
   }
 }
@@ -268,7 +262,7 @@ section#projects {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
   }
 
   // overriding bootstrap class 'card-title'
@@ -350,10 +344,6 @@ section#projects {
   }
 }
 
-.text-small {
-  font-size: 1rem;
-}
-
 footer {
   font-family: Poppins, serif;
 
@@ -392,7 +382,6 @@ footer {
   }
 
   .about-me-summary {
-    font-size: 18px;
     width: 65%;
   }
 }

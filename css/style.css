@@ -69,7 +69,6 @@ nav {
 }
 nav a {
   color: #fd3e67;
-  font-size: 1rem;
 }
 
 a :not(.btn) {
@@ -108,7 +107,6 @@ main .hero-area-container .hero-area .hero-text {
 }
 main .hero-area-container .hero-area .about-me-summary {
   font-family: Poppins, sans-serif;
-  font-size: 15px;
 }
 
 .fadeblacktogrey {
@@ -140,7 +138,6 @@ main .hero-area-container .hero-area .about-me-summary {
 
 .section-sub-title {
   color: #645dd7;
-  font-size: 1rem;
 }
 
 #skills .cards-container {
@@ -155,7 +152,7 @@ main .hero-area-container .hero-area .about-me-summary {
   padding: 0;
   border: 0.5px solid #ffe74c;
   margin-bottom: 1rem;
-  border-radius: 2vh;
+  border-radius: 10px;
 }
 #skills .cards-container .card .card-body {
   display: flex;
@@ -171,8 +168,7 @@ main .hero-area-container .hero-area .about-me-summary {
 #skills .ml-skills-container .card {
   height: 120px;
   border: #ffe74c 1px solid;
-  border-radius: 5px;
-  display: flex;
+  border-radius: 10px;
   margin-bottom: 1rem;
 }
 #skills .ml-skills-container .card .card-body {
@@ -186,7 +182,6 @@ main .hero-area-container .hero-area .about-me-summary {
   margin: 0;
   color: #645dd7;
   font-family: Comfortaa, serif;
-  font-size: 14px;
   font-weight: bold;
   text-transform: uppercase;
 }
@@ -199,7 +194,6 @@ main .hero-area-container .hero-area .about-me-summary {
 }
 #skills .more-skills {
   font-family: "Poppins", sans-serif;
-  font-size: 1rem;
   color: #1E212B;
 }
 
@@ -214,7 +208,7 @@ section#projects {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  align-items: flex-start;
+  align-items: center;
 }
 #projects .card-title {
   color: #fd3e67;
@@ -284,10 +278,6 @@ section#projects {
   height: 11px;
 }
 
-.text-small {
-  font-size: 1rem;
-}
-
 footer {
   font-family: Poppins, serif;
 }
@@ -318,7 +308,6 @@ footer .socials-container {
   }
 
   .about-me-summary {
-    font-size: 18px;
     width: 65%;
   }
 }
