@@ -120,7 +120,7 @@ main {
         color: $white;
         text-transform: uppercase;
         font-family: Poppins, serif;
-        font-size: 1rem;
+        font-size: 1.5rem;
         //border: white 1px solid;
       }
 
@@ -198,7 +198,7 @@ main {
       justify-content: center;
       align-content: center;
       padding: 0;
-      border: 0.5px solid $site-yellow;
+      border: .5px solid $site-yellow;
       margin-bottom: 1rem;
 
       .card-body {
@@ -242,7 +242,7 @@ main {
 
         .muted-text {
           font-family: "Poppins", sans-serif;
-          font-size: 0.8rem;
+          font-size: .8rem;
           color: $site-black;
           font-weight: normal;
           text-transform: none;
@@ -261,7 +261,7 @@ main {
 section#projects {
   // for some reason which I haven't identified yet, section is overlapped when I remove border
   // and so setting the border to a very thin (.1px), is a temporary work around for this
-  border: 0.1px solid $site-black;
+  border: .1px solid $site-black;
 }
 
 #projects {
@@ -352,7 +352,7 @@ section#projects {
 }
 
 .text-small {
-  font-size: 0.9rem;
+  font-size: .9rem;
 }
 
 footer {
