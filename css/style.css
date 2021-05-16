@@ -149,8 +149,7 @@ main .hero-area-container .hero-area .about-me-summary {
 }
 
 .section-title {
-  margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin: 2rem 0;
   color: #fd3e67;
   font-family: Comfortaa, serif;
   font-size: 25px;
@@ -166,7 +165,7 @@ main .hero-area-container .hero-area .about-me-summary {
   bottom: -10px;
   height: 2px;
   border-radius: 5px;
-  width: 70px;
+  width: 60px;
   border-bottom: 4px solid;
 }
 
