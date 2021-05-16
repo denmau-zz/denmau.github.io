@@ -342,13 +342,6 @@ footer .socials-container {
     background-repeat: no-repeat;
     background-size: 912px 522px;
   }
-
-  footer {
-    display: flex;
-  }
-  footer p {
-    width: fit-content;
-  }
 }
 @media only screen and (min-width: 1200px) {
   .hero-area-container {
