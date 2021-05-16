@@ -66,17 +66,38 @@ a {
 
 nav {
   justify-content: space-between;
+  align-items: center;
 }
-nav a {
+nav a, nav a:hover {
   color: #fd3e67;
+  position: relative;
+}
+nav a.active,
+nav a.active:hover {
+  color: #ffe74c;
+}
+nav a::after {
+  content: "";
+  background-color: #645dd7;
+  position: absolute;
+  left: 0;
+  bottom: -18px;
+  height: 2px;
+  width: 100%;
+  opacity: 0;
+  transition: transform 0.2s ease;
+}
+nav a:hover::after {
+  transform: translateY(-10px);
+  opacity: 1;
+}
+
+.navbar-toggler:focus {
+  outline: none;
 }
 
 a :not(.btn) {
   color: #fd3e67;
-}
-
-a.active {
-  color: #ffe74c;
 }
 
 main .hero-area-container {
@@ -134,6 +155,15 @@ main .hero-area-container .hero-area .about-me-summary {
   font-family: Comfortaa, serif;
   font-size: 25px;
   font-weight: bold;
+}
+
+span.section-underlay {
+  content: "";
+  width: 70px;
+  border-bottom: 4px solid;
+  z-index: 1;
+  margin-bottom: 1.2em;
+  border-radius: 5px;
 }
 
 .section-sub-title {

@@ -78,19 +78,43 @@ a {
 
 nav {
   justify-content: space-between;
+  align-items: center;
 
-  a {
+  a, a:hover {
     color: $site-red;
+    position: relative;
   }
+
+  a.active,
+  a.active:hover {
+    color: $site-yellow;
+  }
+
+  a::after {
+    content: "";
+    background-color: $site-blue;
+    position: absolute;
+    left: 0;
+    bottom: -18px;
+    height: 2px;
+    width: 100%;
+    opacity: 0;
+    transition: transform 0.2s ease;
+  }
+
+  a:hover::after {
+    transform: translateY(-10px);
+    opacity: 1;
+  }
+}
+
+.navbar-toggler:focus {
+  outline: none;
 }
 
 //select all links except those that are buttons (to prevent overriding bootstrap colors)
 a :not(.btn) {
   color: $site-red;
-}
-
-a.active {
-  color: $site-yellow;
 }
 
 main {
@@ -164,6 +188,7 @@ main {
 }
 
 .section-title {
+
   margin-top: 2rem;
   margin-bottom: 2rem;
   color: $site-red;
@@ -171,6 +196,16 @@ main {
   font-size: 25px;
   font-weight: bold;
 }
+
+span.section-underlay {
+  content: "";
+  width: 70px;
+  border-bottom: 4px solid;
+  z-index: 1;
+  margin-bottom: 1.2em;
+  border-radius: 5px;
+}
+
 
 .section-sub-title {
   color: $site-blue;
