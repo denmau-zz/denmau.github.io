@@ -26,7 +26,7 @@ body {
 
 /* Target blank icon */
 /* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
-a[target="_blank"]:after {
+a[target=_blank]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
   margin: 0 3px 0 5px;
 }
@@ -64,10 +64,6 @@ a {
   background-color: #c3d2d5;
 }
 
-nav {
-  justify-content: space-between;
-  align-items: center;
-}
 nav a,
 nav a:hover {
   color: #fd3e67;
@@ -92,8 +88,7 @@ nav a:hover::after {
   transform: translateY(-10px);
   opacity: 1;
 }
-
-.navbar-toggler:focus {
+nav .navbar-toggler:focus {
   outline: none;
 }
 
@@ -280,7 +275,7 @@ section#projects {
 #contact .form-container textarea {
   border-bottom: 2px solid #645dd7;
 }
-#contact .form-container button[type="submit"] {
+#contact .form-container button[type=submit] {
   background-color: #645dd7;
   border-color: #645dd7;
   width: 70%;
