@@ -15,7 +15,7 @@
 }
 
 body {
-  color: #1E212B;
+  color: #1e212b;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -26,7 +26,7 @@ body {
 
 /* Target blank icon */
 /* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
-a[target=_blank]:after {
+a[target="_blank"]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
   margin: 0 3px 0 5px;
 }
@@ -41,7 +41,7 @@ a {
 }
 
 .color-black {
-  color: #1E212B;
+  color: #1e212b;
 }
 
 .color-red {
@@ -57,7 +57,7 @@ a {
 }
 
 .background-black {
-  background-color: #1E212B;
+  background-color: #1e212b;
 }
 
 .background-grey {
@@ -68,7 +68,8 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
-nav a, nav a:hover {
+nav a,
+nav a:hover {
   color: #fd3e67;
   position: relative;
 }
@@ -221,17 +222,17 @@ main .hero-area-container .hero-area .about-me-summary {
 #stack .ml-skills-container .card .card-body .muted-text {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
-  color: #1E212B;
+  color: #1e212b;
   font-weight: normal;
   text-transform: none;
 }
 #stack .more-skills {
   font-family: "Poppins", sans-serif;
-  color: #1E212B;
+  color: #1e212b;
 }
 
 section#projects {
-  border: 0.1px solid #1E212B;
+  border: 0.1px solid #1e212b;
 }
 
 #projects .card {
@@ -279,7 +280,7 @@ section#projects {
 #contact .form-container textarea {
   border-bottom: 2px solid #645dd7;
 }
-#contact .form-container button[type=submit] {
+#contact .form-container button[type="submit"] {
   background-color: #645dd7;
   border-color: #645dd7;
   width: 70%;
