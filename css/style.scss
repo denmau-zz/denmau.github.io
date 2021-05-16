@@ -417,10 +417,8 @@ footer {
       background-image: url("../img/undraw_delivery_address_03n0.png");
       background-position: right;
       background-repeat: no-repeat;
-      //background-size: 50vw auto;
       //background-size: contain;
-      background-size: 912px 680px;
-      //min-height: 680px;
+      background-size: 912px 522px;
     }
   }
 
@@ -432,6 +430,7 @@ footer {
     }
   }
 }
+
 
 // For Extra Large screens
 @media only screen and (min-width: 1200px) {
