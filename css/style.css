@@ -15,7 +15,7 @@
 }
 
 body {
-  color: #1e212b;
+  color: #1E212B;
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
@@ -41,7 +41,7 @@ a {
 }
 
 .color-black {
-  color: #1e212b;
+  color: #1E212B;
 }
 
 .color-red {
@@ -57,7 +57,7 @@ a {
 }
 
 .background-black {
-  background-color: #1e212b;
+  background-color: #1E212B;
 }
 
 .background-grey {
@@ -192,18 +192,18 @@ main .hero-area-container .hero-area .about-me-summary {
 #skills .ml-skills-container .card .card-body .muted-text {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
-  color: #1e212b;
+  color: #1E212B;
   font-weight: normal;
   text-transform: none;
 }
 #skills .more-skills {
   font-family: "Poppins", sans-serif;
   font-size: 1rem;
-  color: #1e212b;
+  color: #1E212B;
 }
 
 section#projects {
-  border: 0.1px solid #1e212b;
+  border: 0.1px solid #1E212B;
 }
 
 #projects .card {
