@@ -12,26 +12,20 @@
     <link rel="canonical" href=" { { https://www.denmau.me } }{ { index.html } }"/>
 
     <!-- bootstrap -->
-    <!--    <link-->
-    <!--      rel="stylesheet"-->
-    <!--      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"-->
-    <!--      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"-->
-    <!--      crossorigin="anonymous"-->
-    <!--    />-->
+    <!--Local Bootstrap File for use during development-->
     <link rel="stylesheet" href="css/bootstrap.min.css"/>
+
     <!-- animate -->
     <!--    <link-->
     <!--            rel="stylesheet"-->
     <!--            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"-->
     <!--    />-->
-    <!-- Font Awesome  -->
-    <!--    <script src="https://use.fontawesome.com/fa8887939e.js"></script>-->
-    <!-- Page Clip -->
-    <!--    <link-->
-    <!--            rel="stylesheet"-->
-    <!--            href="https://s.pageclip.co/v1/pageclip.css"-->
-    <!--            media="screen"-->
-    <!--    />-->
+    <!--Page Clip CSS-->
+    <link
+            rel="stylesheet"
+            href="https://s.pageclip.co/v1/pageclip.css"
+            media="screen"
+    />
 
     <!-- Main stylesheet -->
     <link rel="stylesheet" href="css/style.css"/>
@@ -235,7 +229,7 @@
 <section id="projects" class="background-black">
     <div class="container">
         <h2 class="section-title">Projects</h2>
-        <div class="row justify-content-evenly">
+        <div class="row justify-content-between">
             <div class="card mb-2 col-12 col-sm-12 col-md-12 col-lg-5">
                 <div class="row text-center">
                     <div class="col d-flex justify-content-end">
@@ -259,13 +253,23 @@
                                     width="40"
                             />
                         </div>
+
+                        <div>
+                            <!--TODO: Add Link to FoodFit APK-->
+                            <a
+                                    href="#"
+                                    class="btn btn-primary"
+                            >Download APP</a
+                            >
+                        </div>
                         <div>
                             <a
                                     href="https://www.github.com/denmau/foodfit"
-                                    class="btn btn-outline-primary"
+                                    class="btn btn-outline-secondary"
                             >View on GitHub</a
                             >
                         </div>
+
                     </div>
                 </div>
                 <div class="card-body">
@@ -321,8 +325,8 @@
                         <div>
                             <a
                                     href="http://denmaublog.herokuapp.com/"
-                                    class="btn btn-outline-primary"
-                            >View on Heroku</a
+                                    class="btn btn-primary"
+                            >View Live Site</a
                             >
                         </div>
                         <div>

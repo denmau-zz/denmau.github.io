@@ -79,26 +79,19 @@ a {
 nav {
   justify-content: space-between;
 
-  .branding {
+  a {
     color: $site-red;
+    font-size: 1rem;
   }
 }
 
-a {
+//I am doing this to prevent overriding bootstrap colors to links with class btn
+a :not(.btn) {
   color: $site-red;
 }
 
 a.active {
   color: $site-yellow;
-}
-
-//optimize  for color blind users
-a.btn {
-  color: unset;
-}
-
-a:visited {
-  color: $site-blue;
 }
 
 main {
@@ -259,12 +252,13 @@ main {
 }
 
 section#projects {
-  // for some reason which I haven't identified yet, section is overlapped when I remove border
+  // for some reason which I haven't identified yet, this section is overlapped when I remove border
   // and so setting the border to a very thin (.1px), is a temporary work around for this
   border: .1px solid $site-black;
 }
 
 #projects {
+
   .space-equally-vertically {
     display: flex;
     flex-direction: column;
@@ -417,8 +411,8 @@ footer {
       background-image: url("../img/undraw_delivery_address_03n0.png");
       background-position: right;
       background-repeat: no-repeat;
-      //background-size: contain;
-      background-size: 912px 522px;
+      background-size: contain;
+      //background-size: 912px 522px;
     }
   }
 }

@@ -67,24 +67,17 @@ a {
 nav {
   justify-content: space-between;
 }
-nav .branding {
+nav a {
   color: #fd3e67;
+  font-size: 1rem;
 }
 
-a {
+a :not(.btn) {
   color: #fd3e67;
 }
 
 a.active {
   color: #ffe74c;
-}
-
-a.btn {
-  color: unset;
-}
-
-a:visited {
-  color: #645dd7;
 }
 
 main .hero-area-container {
@@ -340,7 +333,7 @@ footer .socials-container {
     background-image: url("../img/undraw_delivery_address_03n0.png");
     background-position: right;
     background-repeat: no-repeat;
-    background-size: 912px 522px;
+    background-size: contain;
   }
 }
 @media only screen and (min-width: 1200px) {
