@@ -187,13 +187,13 @@ main {
       //height: 94px;
       height: 150px;
       width: 100%;
-
       display: flex;
       justify-content: center;
       align-content: center;
       padding: 0;
       border: .5px solid $site-yellow;
       margin-bottom: 1rem;
+      border-radius: 2vh;
 
       .card-body {
         display: flex;
