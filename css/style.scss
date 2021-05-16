@@ -197,21 +197,11 @@ main {
   font-weight: bold;
 }
 
-span.section-underlay {
-  content: "";
-  width: 70px;
-  border-bottom: 4px solid;
-  z-index: 1;
-  margin-bottom: 1.2em;
-  border-radius: 5px;
-}
-
-
 .section-sub-title {
   color: $site-blue;
 }
 
-#skills {
+#stack {
   .cards-container {
     display: flex;
 

@@ -157,23 +157,14 @@ main .hero-area-container .hero-area .about-me-summary {
   font-weight: bold;
 }
 
-span.section-underlay {
-  content: "";
-  width: 70px;
-  border-bottom: 4px solid;
-  z-index: 1;
-  margin-bottom: 1.2em;
-  border-radius: 5px;
-}
-
 .section-sub-title {
   color: #645dd7;
 }
 
-#skills .cards-container {
+#stack .cards-container {
   display: flex;
 }
-#skills .cards-container .card {
+#stack .cards-container .card {
   height: 150px;
   width: 100%;
   display: flex;
@@ -184,45 +175,45 @@ span.section-underlay {
   margin-bottom: 1rem;
   border-radius: 10px;
 }
-#skills .cards-container .card .card-body {
+#stack .cards-container .card .card-body {
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
 }
-#skills .cards-container .card .card-body img {
+#stack .cards-container .card .card-body img {
   max-height: 68px;
   max-width: 60px;
 }
-#skills .ml-skills-container .card {
+#stack .ml-skills-container .card {
   height: 120px;
   border: #ffe74c 1px solid;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
-#skills .ml-skills-container .card .card-body {
+#stack .ml-skills-container .card .card-body {
   height: inherit;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
 }
-#skills .ml-skills-container .card .card-body p {
+#stack .ml-skills-container .card .card-body p {
   margin: 0;
   color: #645dd7;
   font-family: Comfortaa, serif;
   font-weight: bold;
   text-transform: uppercase;
 }
-#skills .ml-skills-container .card .card-body .muted-text {
+#stack .ml-skills-container .card .card-body .muted-text {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
   color: #1E212B;
   font-weight: normal;
   text-transform: none;
 }
-#skills .more-skills {
+#stack .more-skills {
   font-family: "Poppins", sans-serif;
   color: #1E212B;
 }
