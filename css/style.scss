@@ -288,16 +288,13 @@ section#projects {
 }
 
 #projects {
-  .card {
-    margin-bottom: 3rem;
-  }
-
   .space-equally-vertically {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
   }
+
 
   // overriding bootstrap class 'card-title'
   .card-title {

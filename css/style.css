@@ -230,9 +230,6 @@ section#projects {
   border: 0.1px solid #1e212b;
 }
 
-#projects .card {
-  margin-bottom: 3rem;
-}
 #projects .space-equally-vertically {
   display: flex;
   flex-direction: column;
