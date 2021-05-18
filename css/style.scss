@@ -134,7 +134,7 @@ main {
         color: $white;
         text-transform: uppercase;
         font-family: Poppins, serif;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         //border: white 1px solid;
       }
 
@@ -143,7 +143,7 @@ main {
         text-transform: uppercase;
         font-family: Comfortaa, sans-serif;
         font-weight: normal;
-        font-size: 3rem;
+        font-size: 2rem;
         //border: white 1px solid;
       }
 
@@ -244,7 +244,6 @@ main {
 
   .ml-skills-container {
     .card {
-      //height: 94px;
       height: 120px;
       border: $site-yellow 1px solid;
       border-radius: 10px;

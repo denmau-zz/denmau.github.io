@@ -113,14 +113,14 @@ main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
   font-family: Poppins, serif;
-  font-size: 1.5rem;
+  font-size: 1.2rem;
 }
 main .hero-area-container .hero-area .hero-text {
   color: #ffe74c;
   text-transform: uppercase;
   font-family: Comfortaa, sans-serif;
   font-weight: normal;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 main .hero-area-container .hero-area .about-me-summary {
   font-family: Poppins, sans-serif;
