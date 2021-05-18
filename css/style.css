@@ -185,14 +185,11 @@ main .hero-area-container .hero-area .about-me-summary {
 }
 #stack .cards-container .card .card-body {
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100%;
   width: 100%;
-}
-#stack .cards-container .card .card-body img {
-  max-height: 68px;
-  max-width: 60px;
 }
 #stack .ml-skills-container .card {
   height: 120px;

@@ -228,14 +228,15 @@ main {
 
       .card-body {
         display: flex;
+        flex-direction: column;
         justify-content: center;
         align-items: center;
         height: 100%;
         width: 100%;
 
         img {
-          max-height: 68px;
-          max-width: 60px;
+          //max-height: 68px;
+          //max-width: 60px;
         }
       }
     }
