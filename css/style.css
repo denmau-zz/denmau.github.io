@@ -26,7 +26,7 @@ body {
 
 /* Target blank icon */
 /* Inspired by: "https://codepen.io/thiagobraga/pen/bhDdn" */
-a[target=_blank]:after {
+a[target="_blank"]:after {
   content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAQElEQVR42qXKwQkAIAxDUUdxtO6/RBQkQZvSi8I/pL4BoGw/XPkh4XigPmsUgh0626AjRsgxHTkUThsG2T/sIlzdTsp52kSS1wAAAABJRU5ErkJggg==);
   margin: 0 3px 0 5px;
 }
@@ -260,7 +260,7 @@ section#projects {
 #contact .form-container textarea {
   border-bottom: 2px solid #645dd7;
 }
-#contact .form-container button[type=submit] {
+#contact .form-container button[type="submit"] {
   width: 70%;
   margin-top: 2rem;
 }
