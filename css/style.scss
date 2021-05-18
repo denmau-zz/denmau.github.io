@@ -233,11 +233,6 @@ main {
         align-items: center;
         height: 100%;
         width: 100%;
-
-        img {
-          //max-height: 68px;
-          //max-width: 60px;
-        }
       }
     }
   }
@@ -288,13 +283,6 @@ section#projects {
 }
 
 #projects {
-  .space-equally-vertically {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-  }
-
   // overriding bootstrap class 'card-title'
   .card-title {
     color: $site-red;

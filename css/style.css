@@ -227,12 +227,6 @@ section#projects {
   border: 0.1px solid #1e212b;
 }
 
-#projects .space-equally-vertically {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-}
 #projects .card-title {
   color: #fd3e67;
   font-family: Comfortaa, serif;
