@@ -169,10 +169,7 @@ main .hero-area-container .hero-area .about-me-summary {
   color: #645dd7;
 }
 
-#stack .cards-container {
-  display: flex;
-}
-#stack .cards-container .card {
+#stack .card {
   height: 150px;
   width: 100%;
   display: flex;
@@ -183,7 +180,7 @@ main .hero-area-container .hero-area .about-me-summary {
   margin-bottom: 1rem;
   border-radius: 10px;
 }
-#stack .cards-container .card .card-body {
+#stack .card .card-body {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -301,7 +298,7 @@ footer {
 footer .socials-container {
   display: flex;
   justify-content: space-around;
-  width: 100%;
+  width: 80%;
   height: 25px;
   background-color: unset;
 }
