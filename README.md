@@ -6,6 +6,7 @@
 
 - HTML
 - CSS
+- SCSS
 - JavaScript
 
 ## Frameworks
