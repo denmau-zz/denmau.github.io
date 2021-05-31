@@ -23,16 +23,11 @@ Vue.js version is currently in development
 - CloudFlare - for caching & page visit analytics
 - pageclip - server for HTML forms
 
-I am using DeepSource to fix bug risks, anti-patterns, performance issues, and security flaws.
+I am using DeepSource to fix bug risks, anti-patterns, performance issues, and
+security flaws.
 
 There is still more to come, including even more projects.
 
-You can reach me at
-<br />
-[Email](mailto:dmkamau475@gmail.com)
-<br />
-[Linked In](https:www.linkedin.com/in/denmau)
-<br />
-[Twitter](https:www.twitter.com/denmau6)
-<br />
-[Website](https:www.denmau.me)
+You can reach me at <br /> [Email](mailto:dmkamau475@gmail.com) <br />
+[Linked In](https:www.linkedin.com/in/denmau) <br />
+[Twitter](https:www.twitter.com/denmau6) <br /> [Website](https:www.denmau.me)
