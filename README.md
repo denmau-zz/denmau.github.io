@@ -1,6 +1,8 @@
 # 👋 Hi am Dennis Kamau
 
 ## This code runs my website live at <a href="https://www.denmau.me">www.denmau.me</a>
+<br />
+Vue.js version is currently in development
 
 ## Tech Stack
 
@@ -10,7 +12,6 @@
 - JavaScript
 
 ## Frameworks
-
 - Bootstrap
 
 ## Libraries
@@ -31,3 +32,5 @@ You can reach me at
 [Linked In](https:www.linkedin.com/in/denmau)
 <br />
 [Twitter](https:www.twitter.com/denmau6)
+<br />
+[Website](https:www.denmau.me)
