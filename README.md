@@ -29,8 +29,8 @@ You can reach me at
 <br />
 [Email](mailto:dmkamau475@gmail.com)
 <br />
-[Linked In](https:www.linkedin.com/in/denmau)
+[Linked In](https://www.linkedin.com/in/denmau)
 <br />
-[Twitter](https:www.twitter.com/denmau6)
+[Twitter](https://www.twitter.com/denmau6)
 <br />
-[Website](https:www.denmau.me)
+[Website](https://www.denmau.me)
