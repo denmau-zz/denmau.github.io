@@ -31,6 +31,6 @@ You can reach me at
 <br />
 [Linked In](https://www.linkedin.com/in/denmau)
 <br />
-[Twitter](https://www.twitter.com/denmau6)
+[Twitter](https://www.twitter.com/devdenmau)
 <br />
 [Website](https://www.denmau.me)
