@@ -1,6 +1,7 @@
 # 👋 Hi am Dennis Kamau
 
 ## This code runs my website live at <a href="https://www.denmau.me">www.denmau.me</a>
+
 <br />
 Vue.js version is currently in development
 
@@ -12,6 +13,7 @@ Vue.js version is currently in development
 - JavaScript
 
 ## Frameworks
+
 - Bootstrap
 
 ## Libraries
