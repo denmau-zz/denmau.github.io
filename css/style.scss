@@ -26,6 +26,20 @@ $white: white;
   box-sizing: border-box;
 }
 
+.btn-primary {
+  background-color: $site-blue;
+}
+
+a,
+a:active,
+a:visited {
+  color: $site-blue;
+}
+
+a:hover {
+  color: $site-red;
+}
+
 body {
   color: $site-black;
   font-family: "Poppins", sans-serif;
@@ -299,6 +313,10 @@ section#projects {
       color: $site-blue;
     }
 
+    span.form-required {
+      color: $site-red;
+    }
+
     input,
     select,
     textarea {
@@ -326,6 +344,10 @@ section#projects {
       // border-color: $site-blue;
       width: 70%;
       margin-top: 2rem;
+    }
+    .pageclip-form__submit::after {
+      border-color: $site-red;
+      border-left-color: #645dd7;
     }
   }
 }

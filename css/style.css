@@ -11,7 +11,22 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.btn-primary {
+  background-color: #645dd7;
+}
+
+a,
+a:active,
+a:visited {
+  color: #645dd7;
+}
+
+a:hover {
+  color: #fd3e67;
 }
 
 body {
@@ -19,9 +34,11 @@ body {
   font-family: "Poppins", sans-serif;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   background-color: #c3d2d5;
-  animation-duration: 2s;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
 }
 
 /* Target blank icon */
@@ -69,10 +86,12 @@ nav a:hover {
   color: #fd3e67;
   position: relative;
 }
+
 nav a.active,
 nav a.active:hover {
   color: #ffe74c;
 }
+
 nav a::after {
   content: "";
   background-color: #645dd7;
@@ -82,12 +101,18 @@ nav a::after {
   height: 2px;
   width: 100%;
   opacity: 0;
+  -webkit-transition: -webkit-transform 0.2s ease;
+  transition: -webkit-transform 0.2s ease;
   transition: transform 0.2s ease;
+  transition: transform 0.2s ease, -webkit-transform 0.2s ease;
 }
+
 nav a:hover::after {
-  transform: translateY(-10px);
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
   opacity: 1;
 }
+
 nav .navbar-toggler:focus {
   outline: none;
 }
@@ -101,20 +126,32 @@ main .hero-area-container {
   margin-left: auto;
   margin-right: auto;
 }
+
 main .hero-area-container .hero-area {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  flex-wrap: nowrap;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   min-height: inherit;
-  justify-content: space-around;
-  align-items: flex-start;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
+
 main .hero-area-container .hero-area .greetings {
   color: white;
   text-transform: uppercase;
   font-family: Poppins, serif;
   font-size: 1.2rem;
 }
+
 main .hero-area-container .hero-area .hero-text {
   color: #ffe74c;
   text-transform: uppercase;
@@ -122,6 +159,7 @@ main .hero-area-container .hero-area .hero-text {
   font-weight: normal;
   font-size: 2rem;
 }
+
 main .hero-area-container .hero-area .about-me-summary {
   font-family: Poppins, sans-serif;
 }
@@ -132,6 +170,7 @@ main .hero-area-container .hero-area .about-me-summary {
   width: 100%;
   height: 50px;
   background: #1e212b;
+  background: -webkit-gradient(linear, left top, left bottom, from(#1e212b), color-stop(26%, #1e212b), to(#c3d2d5));
   background: linear-gradient(180deg, #1e212b 0%, #1e212b 26%, #c3d2d5 100%);
 }
 
@@ -141,6 +180,7 @@ main .hero-area-container .hero-area .about-me-summary {
   width: 100%;
   height: 50px;
   background: #c3d2d5;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c3d2d5), color-stop(27%, #c3d2d5), color-stop(74%, #1e212b));
   background: linear-gradient(180deg, #c3d2d5 0%, #c3d2d5 27%, #1e212b 74%);
 }
 
@@ -172,35 +212,62 @@ main .hero-area-container .hero-area .about-me-summary {
 #stack .card {
   height: 150px;
   width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
   padding: 0;
   border: 0.5px solid #ffe74c;
   margin-bottom: 1rem;
   border-radius: 10px;
 }
+
 #stack .card .card-body {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 100%;
   width: 100%;
 }
+
 #stack .ml-skills-container .card {
   height: 120px;
   border: #ffe74c 1px solid;
   border-radius: 10px;
   margin-bottom: 1rem;
 }
+
 #stack .ml-skills-container .card .card-body {
   height: inherit;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
+
 #stack .ml-skills-container .card .card-body p {
   margin: 0;
   color: #645dd7;
@@ -208,6 +275,7 @@ main .hero-area-container .hero-area .about-me-summary {
   font-weight: bold;
   text-transform: uppercase;
 }
+
 #stack .ml-skills-container .card .card-body .muted-text {
   font-family: "Poppins", sans-serif;
   font-size: 0.8rem;
@@ -215,6 +283,7 @@ main .hero-area-container .hero-area .about-me-summary {
   font-weight: normal;
   text-transform: none;
 }
+
 #stack .more-skills {
   font-family: "Poppins", sans-serif;
   color: #1e212b;
@@ -237,47 +306,90 @@ section#projects {
   width: 100%;
   margin-bottom: 2rem;
 }
+
+#contact .form-container ::-webkit-input-placeholder {
+  color: #645dd7;
+}
+
+#contact .form-container :-ms-input-placeholder {
+  color: #645dd7;
+}
+
+#contact .form-container ::-ms-input-placeholder {
+  color: #645dd7;
+}
+
 #contact .form-container ::placeholder {
   color: #645dd7;
 }
+
+#contact .form-container span.form-required {
+  color: #fd3e67;
+}
+
 #contact .form-container input,
 #contact .form-container select,
 #contact .form-container textarea {
   width: 100%;
   padding: 12px 20px;
   margin-bottom: 8px;
-  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   border: none;
   border-bottom: 2px solid #645dd7;
   /* Form Validation  */
   /* This class is added by JS upon invalid input */
 }
+
 #contact .form-container input .invalid,
 #contact .form-container select .invalid,
 #contact .form-container textarea .invalid {
   border-color: red;
 }
+
 #contact .form-container textarea {
   border-bottom: 2px solid #645dd7;
 }
+
 #contact .form-container button[type="submit"] {
   width: 70%;
   margin-top: 2rem;
 }
 
+#contact .form-container .pageclip-form__submit::after {
+  border-color: #fd3e67;
+  border-left-color: #645dd7;
+}
+
 .socials-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   background-color: #c3d2d5;
 }
+
 .socials-container .col {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: baseline;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
+
 .socials-container .social-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: white;
   border-radius: 33px;
   padding: 8px;
@@ -285,6 +397,7 @@ section#projects {
   height: 25px;
   margin-bottom: 2rem;
 }
+
 .socials-container .social-container img {
   width: 15px;
   height: 11px;
@@ -293,9 +406,13 @@ section#projects {
 footer {
   font-family: Poppins, serif;
 }
+
 footer .socials-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   width: 80%;
   height: 25px;
   background-color: unset;
@@ -309,25 +426,22 @@ footer .socials-container {
     background-size: auto 70vh;
     max-width: 720px;
   }
-
   .hero-text {
     font-weight: bold;
     font-size: 4rem;
   }
-
   .greetings {
     font-size: 2rem;
   }
-
   .about-me-summary {
     width: 65%;
   }
 }
+
 @media only screen and (min-width: 992px) {
   .hero-area-container {
     max-width: 960px;
   }
-
   #contact .form-container {
     width: 50%;
   }
@@ -341,15 +455,16 @@ footer .socials-container {
     background-size: contain;
   }
 }
+
 @media only screen and (min-width: 1200px) {
   .hero-area-container {
     max-width: 1140px;
   }
 }
+
 @media only screen and (min-width: 1400px) {
   .hero-area-container {
     max-width: 1320px;
   }
 }
-
 /*# sourceMappingURL=style.css.map */
