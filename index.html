@@ -226,12 +226,6 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <p class="more-skills">
-                    I have a solid grasp of Data Structures & Algorithms (learned them
-                    in Java & C#).
-                </p>
-            </div>
         </div>
     </div>
     <div class="container">
@@ -437,6 +431,7 @@
                     action="https://send.pageclip.co/e76zC4PmHNLeDcDrHMbqag1y9aLlyG6O/leave-message"
                     class="pageclip-form px-2"
                     method="post"
+                    id="contact-form"
             >
                 <div class="row">
                     <label for="your_name" class="form-label">Name <span class="form-required">*</span></label>
@@ -472,6 +467,8 @@
                     ></textarea>
                 </div>
                 <div class="row justify-content-center">
+                    <!-- TODO will implement recaptha later -->
+                    <!-- as soon as I hoop my static site to a server -->
                     <button
                             type="submit"
                             class="
@@ -482,6 +479,7 @@
                     >
                         Send Message
                     </button>
+
                 </div>
             </form>
         </div>
@@ -582,9 +580,15 @@
     </div>
 </footer>
 <!--Footer End-->
-</body>
+
+<!-- jQuery min -->
+<script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
 <!-- Custom JS FIle  -->
 <script src="js/index.js"></script>
+
+<!-- recaptcha -->
+<script src="https://www.google.com/recaptcha/api.js?render=6LdkN-YbAAAAACqFnhzWnvWH5BIxbrSG1eoza7PJ"></script>
+
 
 <!-- Page Clip Form Submission -->
 <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
@@ -598,4 +602,5 @@
         src="https://static.cloudflareinsights.com/beacon.min.js"
         data-cf-beacon='{"token":"7c6a28636ca84f3b9c71d413ca7fd007"}'
 ></script>
+</body>
 </html>

@@ -298,11 +298,6 @@ main .hero-area-container .hero-area .about-me-summary {
   text-transform: none;
 }
 
-#stack .more-skills {
-  font-family: "Poppins", sans-serif;
-  color: #1e212b;
-}
-
 section#projects {
   border: 0.1px solid #1e212b;
 }
