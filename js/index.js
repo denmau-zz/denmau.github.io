@@ -1,8 +1,8 @@
-$(document).ready(function() {
+$(document).ready(function () {
   function onSubmit(token) {
     document.getElementById("contact-form").submit();
   }
-  $("#contact-form").submit(function() {
+  $("#contact-form").submit(function () {
     grecaptcha.ready(() => {
       grecaptcha
         .execute("6LdkN-YbAAAAACqFnhzWnvWH5BIxbrSG1eoza7PJ", {
