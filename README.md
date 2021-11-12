@@ -29,10 +29,10 @@ There is still more to come, including even more projects.
 
 You can reach me at
 <br />
-[Email](mailto:dmkamau475@gmail.com)
+[dmkamau475@gmail.com](mailto:dmkamau475@gmail.com)
 <br />
 [Linked In](https://www.linkedin.com/in/denmau)
 <br />
-[Twitter](https://www.twitter.com/devdenmau)
+[Twitter](https://www.twitter.com/iamdenmau)
 <br />
 [Website](https://www.denmau.me)
