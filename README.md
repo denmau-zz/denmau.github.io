@@ -29,7 +29,7 @@ There is still more to come, including even more projects.
 
 You can reach me at
 <br />
-[dmkamau475@gmail.com](mailto:dmkamau475@gmail.com)
+[dennis@denmau.me](mailto:dennis@denmau.me)
 <br />
 [Linked In](https://www.linkedin.com/in/denmau)
 <br />
