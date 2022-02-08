@@ -152,6 +152,10 @@ main .hero-area-container .hero-area .greetings {
   font-size: 1.2rem;
 }
 
+main .hero-area-container .hero-area .download-resume-mobile {
+  color: white;
+}
+
 main .hero-area-container .hero-area .hero-text {
   color: #ffe74c;
   text-transform: uppercase;
@@ -425,9 +429,6 @@ footer .socials-container {
     font-weight: bold;
     font-size: 4rem;
   }
-  .hero-area-container {
-    max-width: 960px;
-  }
   .greetings {
     font-size: 2rem;
   }
@@ -437,6 +438,9 @@ footer .socials-container {
 }
 
 @media only screen and (min-width: 992px) {
+  .hero-area-container {
+    max-width: 960px;
+  }
   .download-resume-mobile {
     display: none;
   }
